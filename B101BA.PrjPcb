@@ -50,7 +50,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=Schematics\Card Edge Connector.SchDoc
+DocumentPath=Schematics\Edge_Connector.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -84,13 +84,13 @@ GenerateClassCluster=0
 DocumentUniqueId=JMNGTPGP
 
 [Document3]
-DocumentPath=Schematics\3V8 Power Regulator.SchDoc
+DocumentPath=Schematics\3V8_Power_Regulator.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=19
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -101,92 +101,7 @@ GenerateClassCluster=0
 DocumentUniqueId=EEHKXUUL
 
 [Document4]
-DocumentPath=Schematics\Power Enable LED.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=NNTZJFBE
-
-[Document5]
-DocumentPath=Schematics\GSM Modem Power Feed.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=16
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=JIZZUSQJ
-
-[Document6]
-DocumentPath=Schematics\Signal Control Block.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=17
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=PBNNOTBY
-
-[Document7]
-DocumentPath=Schematics\On-Off Signal Control.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=2
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=PFOXIRZK
-
-[Document8]
-DocumentPath=Schematics\Shut Down Signal Control.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=3
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=GCWSMUER
-
-[Document9]
-DocumentPath=Schematics\Voltage Translator.SchDoc
+DocumentPath=Schematics\Voltage_Translator.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -202,14 +117,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=COUEBUWK
 
-[Document10]
-DocumentPath=Schematics\GSM Stat LED Driver.SchDoc
+[Document5]
+DocumentPath=Schematics\Control_Signals.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=5
+AnnotateOrder=20
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -217,16 +132,16 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=CJELZIYH
+DocumentUniqueId=OJYIUWKE
 
-[Document11]
-DocumentPath=Schematics\GNSS PPS LED Driver.SchDoc
+[Document6]
+DocumentPath=Schematics\USB.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=14
+AnnotateOrder=21
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -234,10 +149,10 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=EGRCNUCB
+DocumentUniqueId=IVQYSUIA
 
-[Document12]
-DocumentPath=Schematics\SIM Socket.SchDoc
+[Document7]
+DocumentPath=Schematics\SIM_Socket.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -253,8 +168,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YAVURKGV
 
-[Document13]
-DocumentPath=Schematics\GSM Antenna.SchDoc
+[Document8]
+DocumentPath=Schematics\Antenna.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -270,14 +185,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VOXJUCVN
 
-[Document14]
-DocumentPath=Schematics\GNSS Antenna.SchDoc
+[Document9]
+DocumentPath=Schematics\Stat_LED_Driver.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=7
+AnnotateOrder=5
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -285,10 +200,10 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=AGTIWMMP
+DocumentUniqueId=CJELZIYH
 
-[Document15]
-DocumentPath=Schematics\GSM Un Used.SchDoc
+[Document10]
+DocumentPath=Schematics\Unused_Modem_Pins.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -304,7 +219,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RRAWGTXY
 
-[Document16]
+[Document11]
 DocumentPath=B101BA.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -321,7 +236,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document17]
+[Document12]
 DocumentPath=B101BA.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -338,58 +253,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BDWSDAST
 
-[Document18]
-DocumentPath=Schematics\Signal Control Block.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document19]
-DocumentPath=Schematics\Voltage Translator.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document20]
-DocumentPath=Schematics\Card Edge Connector.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document21]
+[Document13]
 DocumentPath=Output\Output Job.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -406,7 +270,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document22]
+[Document14]
 DocumentPath=B101BA.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -418,6 +282,40 @@ DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document15]
+DocumentPath=Schematics\Edge_Connector.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document16]
+DocumentPath=Schematics\USB.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -576,60 +474,60 @@ DocumentPath=Output\Pick Place\Pick Place for B101AA.txt
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Version_
-Value=R1
+Name=Address1_
+Value=Seker Mah. Ayyildiz Sok
 
 [Parameter2]
-Name=Revision_
-Value=00.00.01
-
-[Parameter3]
-Name=Product_ID_
-Value=--
-
-[Parameter4]
-Name=Product_Desc_
-Value=--
-
-[Parameter5]
-Name=Organization_
-Value=Akkoyun
-
-[Parameter6]
-Name=Module_ID_
-Value=B101BA
-
-[Parameter7]
-Name=Git_Repo_Address_
-Value=www.github.com/akkoyun/B101BA
-
-[Parameter8]
-Name=Engineer_
-Value=Gunce Akkoyun
-
-[Parameter9]
-Name=Customer_
-Value=-
-
-[Parameter10]
-Name=Copyright_
-Value=Copyright 2024 Mehmet Gunce Akkoyun (Commercial Secret)
-
-[Parameter11]
-Name=Address4_
-Value=Türkiye
-
-[Parameter12]
-Name=Address3_
-Value=Selcuklu / Konya
-
-[Parameter13]
 Name=Address2_
 Value=Silverstar Apt. 7/7
 
+[Parameter3]
+Name=Address3_
+Value=Selcuklu / Konya
+
+[Parameter4]
+Name=Address4_
+Value=Türkiye
+
+[Parameter5]
+Name=Copyright_
+Value=Copyright 2024 Mehmet Gunce Akkoyun (Commercial Secret)
+
+[Parameter6]
+Name=Customer_
+Value=-
+
+[Parameter7]
+Name=Engineer_
+Value=Gunce Akkoyun
+
+[Parameter8]
+Name=Git_Repo_Address_
+Value=www.github.com/akkoyun/B101BA
+
+[Parameter9]
+Name=Module_ID_
+Value=B101BA
+
+[Parameter10]
+Name=Organization_
+Value=Akkoyun
+
+[Parameter11]
+Name=Product_Desc_
+Value=--
+
+[Parameter12]
+Name=Product_ID_
+Value=--
+
+[Parameter13]
+Name=Revision_
+Value=00.00.01
+
 [Parameter14]
-Name=Address1_
-Value=Seker Mah. Ayyildiz Sok
+Name=Version_
+Value=R1
 
 [Configuration1]
 Name=Sources
@@ -749,21 +647,11 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=SIMetrixNetlist
-OutputName21=SIMetrix
+OutputType21=XSpiceNetlist
+OutputName21=Mixed Sim Netlist
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
-OutputType22=SIMPLISNetlist
-OutputName22=SIMPLIS
-OutputDocumentPath22=
-OutputVariantName22=
-OutputDefault22=0
-OutputType23=XSpiceNetlist
-OutputName23=Mixed Sim Netlist
-OutputDocumentPath23=
-OutputVariantName23=
-OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
@@ -775,16 +663,6 @@ OutputName1=Mixed Sim
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-OutputType2=SIMetrixSimulation
-OutputName2=SIMetrix
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-OutputType3=SIMPLISSimulation
-OutputName3=SIMPLIS
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -869,18 +747,6 @@ OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
 PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType14=PCBDrawing
-OutputName14=Draftsman
-OutputDocumentPath14=
-OutputVariantName14=[No Variations]
-OutputDefault14=0
-PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType15=PCBDrawing
-OutputName15=Draftsman
-OutputDocumentPath15=
-OutputVariantName15=[No Variations]
-OutputDefault15=0
-PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -903,6 +769,11 @@ OutputName3=Test Point Report
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
+OutputType4=Wire Bonding Table
+OutputName4=Wire Bonding Table Report
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
 
 [OutputGroup5]
 Name=Fabrication Outputs
@@ -1042,102 +913,6 @@ OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType2=Text Print
-OutputName2=Text Print
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType3=Text Print
-OutputName3=Text Print
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType4=Text Print
-OutputName4=Text Print
-OutputDocumentPath4=
-OutputVariantName4=
-OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType5=Text Print
-OutputName5=Text Print
-OutputDocumentPath5=
-OutputVariantName5=
-OutputDefault5=0
-PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType6=Text Print
-OutputName6=Text Print
-OutputDocumentPath6=
-OutputVariantName6=
-OutputDefault6=0
-PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType7=Text Print
-OutputName7=Text Print
-OutputDocumentPath7=
-OutputVariantName7=
-OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType8=Text Print
-OutputName8=Text Print
-OutputDocumentPath8=
-OutputVariantName8=
-OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType9=Text Print
-OutputName9=Text Print
-OutputDocumentPath9=
-OutputVariantName9=
-OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType10=Text Print
-OutputName10=Text Print
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType11=Text Print
-OutputName11=Text Print
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType12=Text Print
-OutputName12=Text Print
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType13=Text Print
-OutputName13=Text Print
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType14=Text Print
-OutputName14=Text Print
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType15=Text Print
-OutputName15=Text Print
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType16=Text Print
-OutputName16=Text Print
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType17=Text Print
-OutputName17=Text Print
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup8]
 Name=Validation Outputs
@@ -1397,6 +1172,20 @@ Type133=1
 Type134=1
 Type135=1
 Type136=1
+Type137=1
+Type138=1
+Type139=1
+Type140=1
+Type141=1
+Type142=1
+Type143=1
+Type144=1
+Type145=1
+Type146=1
+Type147=1
+Type148=1
+Type149=1
+Type150=1
 
 [Difference Levels]
 Type1=1
@@ -1473,6 +1262,13 @@ Type71=1
 Type72=1
 Type73=1
 Type74=1
+Type75=1
+Type76=1
+Type77=1
+Type78=1
+Type79=1
+Type80=1
+Type81=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1626,6 +1422,9 @@ Type148=2
 Type149=2
 Type150=2
 Type151=2
+Type152=1
+Type153=1
+Type154=0
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1809,91 +1608,6 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
-
-[NetInfos]
-Net1=NetName=ANT_GNSS|NetColor=$00FF66FF
-Net2=NetName=ANT_GNSS_|NetColor=$00FF66FF
-Net3=NetName=ANTENNA|NetColor=$00FF66FF
-Net4=NetName=ANTENNA_|NetColor=$00FF66FF
-Net5=NetName=DEBUG_UART_RXD|NetColor=clGreen
-Net6=NetName=DEBUG_UART_TXD|NetColor=clGreen
-Net7=NetName=Direction_A|NetColor=clBlue
-Net8=NetName=Direction_B1|NetColor=clBlue
-Net9=NetName=Direction_B2|NetColor=clBlue
-Net10=NetName=FORCED_USB_BOOT|NetColor=clBlue
-Net11=NetName=G\N\S\S\_\1\V\8\_\E\N\|NetColor=clBlue
-Net12=NetName=G\S\M\_\1\V\8\_\O\N\O\F\F\|NetColor=clBlue
-Net13=NetName=G\S\M\_\1\V\8\_\S\D\O\W\N\|NetColor=clBlue
-Net14=NetName=G\S\M\_\3\V\3\_\C\O\M\M\_\E\N\|NetColor=clBlue
-Net15=NetName=GND|NetColor=$00909090
-Net16=NetName=GNSS_1V8_PPS|NetColor=clBlue
-Net17=NetName=GNSS_1V8_PPS_|NetColor=clBlue
-Net18=NetName=GNSS_1V8_RX|NetColor=clGreen
-Net19=NetName=GNSS_1V8_TX|NetColor=clGreen
-Net20=NetName=GNSS_3V3_EN|NetColor=clBlue
-Net21=NetName=GNSS_3V3_EN_|NetColor=clBlue
-Net22=NetName=GNSS_3V3_RX|NetColor=clGreen
-Net23=NetName=GNSS_3V3_TX|NetColor=clGreen
-Net24=NetName=GNSS_LNA_EN|NetColor=clBlue
-Net25=NetName=GNSS_LNA_EN_|NetColor=$00FF6600
-Net26=NetName=GSM_1V8_GNSS_EN|NetColor=$00FF6600
-Net27=NetName=GSM_1V8_PMON|NetColor=clBlue
-Net28=NetName=GSM_1V8_RING|NetColor=clBlue
-Net29=NetName=GSM_1V8_RX|NetColor=clGreen
-Net30=NetName=GSM_1V8_STAT|NetColor=clBlue
-Net31=NetName=GSM_1V8_STAT_|NetColor=clBlue
-Net32=NetName=GSM_1V8_SWREADY|NetColor=clBlue
-Net33=NetName=GSM_1V8_TX|NetColor=clGreen
-Net34=NetName=GSM_3V3_GNSS_EN|NetColor=clBlue
-Net35=NetName=GSM_3V3_ONOFF|NetColor=clBlue
-Net36=NetName=GSM_3V3_ONOFF_|NetColor=clBlue
-Net37=NetName=GSM_3V3_PMON|NetColor=clBlue
-Net38=NetName=GSM_3V3_RING|NetColor=clBlue
-Net39=NetName=GSM_3V3_RX|NetColor=clGreen
-Net40=NetName=GSM_3V3_SDOWN|NetColor=clBlue
-Net41=NetName=GSM_3V3_SDOWN_|NetColor=clBlue
-Net42=NetName=GSM_3V3_SWREADY|NetColor=clBlue
-Net43=NetName=GSM_3V3_TX|NetColor=clGreen
-Net44=NetName=GSM-GNSS|NetColor=$00009900
-Net45=NetName=IOT_POWER_EN|NetColor=clBlue
-Net46=NetName=NetC22_2|NetColor=clBlue
-Net47=NetName=NetC44_2|NetColor=$00FF6600
-Net48=NetName=NetC46_2|NetColor=$00FF6600
-Net49=NetName=NetC47_2|NetColor=$00FF6600
-Net50=NetName=NetR13_1|NetColor=$00FF6600
-Net51=NetName=NetR14_1|NetColor=$00FF6600
-Net52=NetName=NetR18_2|NetColor=$00FF6600
-Net53=NetName=NetR19_1|NetColor=$00FF6600
-Net54=NetName=NetR20_1|NetColor=$00FF6600
-Net55=NetName=NetR20_2|NetColor=$00FF6600
-Net56=NetName=NetR21_2|NetColor=$00FF6600
-Net57=NetName=NetTP17_1|NetColor=$000033FF
-Net58=NetName=NetTP18_1|NetColor=$00009900
-Net59=NetName=NetTP19_1|NetColor=$00009900
-Net60=NetName=NetTP20_1|NetColor=$00FF6600
-Net61=NetName=NetTP6_1|NetColor=$00009900
-Net62=NetName=NetTP7_1|NetColor=$00009900
-Net63=NetName=NetTP8_1|NetColor=$00009900
-Net64=NetName=PMON_LED|NetColor=clBlue
-Net65=NetName=PPS_LED|NetColor=clBlue
-Net66=NetName=RX_AUX|NetColor=clGreen
-Net67=NetName=SIM_CLK|NetColor=$00009900
-Net68=NetName=SIM_IN|NetColor=$00FF6600
-Net69=NetName=SIM_IO|NetColor=$00009900
-Net70=NetName=SIM_RST|NetColor=$00009900
-Net71=NetName=SIM_VCC|NetColor=$000033FF
-Net72=NetName=STAT_LED|NetColor=clBlue
-Net73=NetName=TX_AUX|NetColor=clGreen
-Net74=NetName=USB_D-|NetColor=$00009900
-Net75=NetName=USB_D+|NetColor=$00009900
-Net76=NetName=VAUX|NetColor=$000033FF
-Net77=NetName=VBATT|NetColor=$000033FF
-Net78=NetName=VCC|NetColor=$000033FF
-Net79=NetName=VCC_Switched|NetColor=$000033FF
-Net80=NetName=VIOT|NetColor=$000033FF
-Net81=NetName=VIOT_|NetColor=$000033FF
-Net82=NetName=VIOT1|NetColor=$000033FF
-Net83=NetName=VUSB|NetColor=$000033FF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
