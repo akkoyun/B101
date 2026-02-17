@@ -1,0 +1,1162 @@
+UNITS=MM
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+
+# CMP 0
+CMP 11 -12.24999836 8.99999978 270 N R20 100K_-_0402_-_%1_-_1/16W ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://www.mouser.com.tr/datasheet/2/427/dcrcwe3-1762152.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com.tr/ProductDetail/Vishay-Dale/CRCW040210K0FKED?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GcalbOv9utCY%3D'
+PRP Manufacturer_Name 'Vishay'
+PRP Manufacturer_Part_Number 'CRCW0402100KFKED'
+PRP Power '1/16W'
+PRP Tolerance '%1'
+PRP Value '100K'
+TOP 0 -12.24999836 8.57000064 270 N 52 139 1
+TOP 1 -12.24999836 9.42999892 270 N 22 1 2
+#
+# CMP 1
+CMP 9 -9.92500174 12.9999994 270 N L3 LQH3NPN2R2MMEL ;0=1,1=0.0000
+PRP Case 'SMD'
+PRP Manufacturer_Name 'Murata'
+PRP Manufacturer_Part_Number 'LQH3NPN2R2MMEL'
+PRP Value '2.2 uH'
+TOP 0 -9.92500174 11.69999946 270 N 2 4 1
+TOP 1 -9.92500174 14.29999934 270 N 21 9 2
+#
+# CMP 2
+CMP 0 -12.7499999 14.29999934 0 N C38 Capacitor_-_33pF_[0402]_(Ceramic) ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://api.kemet.com/component-edge/download/datasheet/C0402C330J9RACAUTO.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0402C330J9RAUTO'
+PRP Manufacturer_Name 'Kemet'
+PRP Manufacturer_Part_Number 'C0402C330J9RACAUTO'
+PRP Tolerance '10%'
+PRP Value '33pF'
+PRP Voltage '6V3'
+TOP 0 -13.17999904 14.29999934 0 N 52 121 1
+TOP 1 -12.32000076 14.29999934 0 N 21 11 2
+#
+# CMP 3
+CMP 11 -4.49999862 11.63750022 0 N R8 47K_-_0402_-_%1_-_1/16W ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://www.mouser.com.tr/datasheet/2/427/dcrcwe3-1762152.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com.tr/ProductDetail/Vishay-Dale/CRCW040247K0FKED?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GL%252B3h1elTxqU%3D'
+PRP Manufacturer_Name 'Vishay'
+PRP Manufacturer_Part_Number 'CRCW040247K0FKED'
+PRP Power '1/16W'
+PRP Tolerance '%1'
+PRP Value '47K'
+TOP 0 -4.92999776 11.63750022 0 N 52 113 1
+TOP 1 -4.06999948 11.63750022 0 N 25 4 2
+#
+# CMP 4
+CMP 11 -4.49999862 12.4500005 0 N R7 47K_-_0402_-_%1_-_1/16W ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://www.mouser.com.tr/datasheet/2/427/dcrcwe3-1762152.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com.tr/ProductDetail/Vishay-Dale/CRCW040247K0FKED?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GL%252B3h1elTxqU%3D'
+PRP Manufacturer_Name 'Vishay'
+PRP Manufacturer_Part_Number 'CRCW040247K0FKED'
+PRP Power '1/16W'
+PRP Tolerance '%1'
+PRP Value '47K'
+TOP 0 -4.92999776 12.4500005 0 N 52 112 1
+TOP 1 -4.06999948 12.4500005 0 N 31 4 2
+#
+# CMP 5
+CMP 11 -4.49999608 7.57500136 180 N R6 47K_-_0402_-_%1_-_1/16W ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://www.mouser.com.tr/datasheet/2/427/dcrcwe3-1762152.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com.tr/ProductDetail/Vishay-Dale/CRCW040247K0FKED?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GL%252B3h1elTxqU%3D'
+PRP Manufacturer_Name 'Vishay'
+PRP Manufacturer_Part_Number 'CRCW040247K0FKED'
+PRP Power '1/16W'
+PRP Tolerance '%1'
+PRP Value '47K'
+TOP 0 -4.06999694 7.57500136 180 N 19 1 1
+TOP 1 -4.92999522 7.57500136 180 N 23 5 2
+#
+# CMP 6
+CMP 11 4.50000116 13.26250078 0 N R5 47K_-_0402_-_%1_-_1/16W ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://www.mouser.com.tr/datasheet/2/427/dcrcwe3-1762152.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com.tr/ProductDetail/Vishay-Dale/CRCW040247K0FKED?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GL%252B3h1elTxqU%3D'
+PRP Manufacturer_Name 'Vishay'
+PRP Manufacturer_Part_Number 'CRCW040247K0FKED'
+PRP Power '1/16W'
+PRP Tolerance '%1'
+PRP Value '47K'
+TOP 0 4.07000202 13.26250078 0 N 34 0 1
+TOP 1 4.9300003 13.26250078 0 N 23 3 2
+#
+# CMP 7
+CMP 12 5.49999916 8.63600254 180 N Q3 BC847AQAZ ;0=1,1=0.0000
+PRP Case 'DFN-1010D-3'
+PRP Manufacturer_Name 'Nexperia'
+PRP Manufacturer_Part_Number 'BC847AQAZ'
+PRP Polarity 'NPN'
+TOP 0 5.12499864 8.18600344 180 N 33 0 1
+TOP 1 5.87499968 8.18600344 180 N 52 69 2
+TOP 2 5.49999916 9.08600164 180 N 41 1 3
+#
+# CMP 8
+CMP 0 2.1999829 5.00000016 90 N C12 Capacitor_-_33pF_[0402]_(Ceramic) ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://api.kemet.com/component-edge/download/datasheet/C0402C330J9RACAUTO.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0402C330J9RAUTO'
+PRP Manufacturer_Name 'Kemet'
+PRP Manufacturer_Part_Number 'C0402C330J9RACAUTO'
+PRP Tolerance '10%'
+PRP Value '33pF'
+PRP Voltage '6V3'
+TOP 0 2.1999829 5.4299993 90 N 52 85 1
+TOP 1 2.1999829 4.57000102 90 N 25 1 2
+#
+# CMP 9
+CMP 0 1.3999845 5.00000016 90 N C11 Capacitor_-_33pF_[0402]_(Ceramic) ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://api.kemet.com/component-edge/download/datasheet/C0402C330J9RACAUTO.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0402C330J9RAUTO'
+PRP Manufacturer_Name 'Kemet'
+PRP Manufacturer_Part_Number 'C0402C330J9RACAUTO'
+PRP Tolerance '10%'
+PRP Value '33pF'
+PRP Voltage '6V3'
+TOP 0 1.3999845 5.4299993 90 N 52 82 1
+TOP 1 1.3999845 4.57000102 90 N 31 1 2
+#
+# CMP 10
+CMP 15 -10.00000032 8.50000078 90 N U3 TPS62130ARGTR ;0=1,1=0.0000
+PRP Case 'VQFN-EP-16'
+PRP Manufacturer_Name 'Texas Instruments'
+PRP Manufacturer_Part_Number 'TPS62130ARGTR'
+PRP Output_Current '3A'
+PRP Quiescent_Current '17uA'
+PRP Input_Voltage_-_Max '17V'
+TOP 0 -9.24999928 9.90000052 0 N 2 1 1
+TOP 1 -9.75000082 9.90000052 0 N 2 2 2
+TOP 2 -10.24999982 9.90000052 0 N 2 3 3
+TOP 3 -10.75000136 9.90000052 0 N 30 0 4
+TOP 4 -11.40000006 9.25000182 90 N 22 0 5
+TOP 5 -11.40000006 8.75000028 90 N 52 10 6
+TOP 6 -11.40000006 8.25000128 90 N 52 9 7
+TOP 7 -11.40000006 7.74999974 90 N 52 12 8
+TOP 8 -10.75000136 7.10000104 0 N 3 0 9
+TOP 9 -10.24999982 7.10000104 0 N 43 2 10
+TOP 10 -9.75000082 7.10000104 0 N 43 4 11
+TOP 11 -9.24999928 7.10000104 0 N 43 3 12
+TOP 12 -8.60000058 7.74999974 90 N 4 0 13
+TOP 13 -8.60000058 8.25000128 90 N 21 4 14
+TOP 14 -8.60000058 8.75000028 90 N 52 7 15
+TOP 15 -8.60000058 9.25000182 90 N 52 8 16
+TOP 16 -10.00000032 8.50000078 90 N 52 11 17
+#
+# CMP 11
+CMP 14 0 10.49999932 0 N U2 SN74AXC8T245PWR ;0=1,1=0.0000
+PRP Case 'TSSOP-24'
+PRP Channel_Type 'Bidirectional'
+PRP Data_Rate '380Mbps'
+PRP Logic_Family 'AXC'
+PRP Manufacturer_Name 'Texas Instruments'
+PRP Manufacturer_Part_Number 'SN74AXC8T245PWR'
+PRP Maximum_Operating_Temperature '+ 125 C'
+PRP Minimum_Operating_Temperature '- 40 C'
+PRP Number_of_Channels '8 Channel'
+PRP Operating_Supply_Current '60 uA'
+PRP Output_Type 'Tri-State, Non-Inverted'
+PRP Product_Type 'Translation - Voltage Levels'
+PRP Propagation_Delay_Time '4 ns'
+PRP ROHS 'Yes'
+PRP Supply_Voltage_-_Max '3V6'
+PRP Supply_Voltage_-_Min '0V65'
+TOP 0 -2.99999908 14.07500106 0 N 23 0 1
+TOP 1 -2.99999908 13.42499982 0 N 20 0 2
+TOP 2 -2.99999908 12.77499858 0 N 31 3 3
+TOP 3 -2.99999908 12.12499988 0 N 25 3 4
+TOP 4 -2.99999908 11.47499864 0 N 29 3 5
+TOP 5 -2.99999908 10.82499994 0 N 24 3 6
+TOP 6 -2.99999908 10.1749987 0 N -1 0 7
+TOP 7 -2.99999908 9.525 0 N 0 120 8
+TOP 8 -2.99999908 8.87499876 0 N 28 3 9
+TOP 9 -2.99999908 8.22500006 0 N 0 119 10
+TOP 10 -2.99999908 7.57499882 0 N 19 0 11
+TOP 11 -2.99999908 6.92499758 0 N 52 126 12
+TOP 12 2.99999908 6.92499758 0 N 52 81 13
+TOP 13 2.99999908 7.57499882 0 N 0 118 14
+TOP 14 2.99999908 8.22500006 0 N 37 2 15
+TOP 15 2.99999908 8.87499876 0 N 0 121 16
+TOP 16 2.99999908 9.525 0 N -1 0 17
+TOP 17 2.99999908 10.1749987 0 N 35 2 18
+TOP 18 2.99999908 10.82499994 0 N 38 2 19
+TOP 19 2.99999908 11.47499864 0 N 36 2 20
+TOP 20 2.99999908 12.12499988 0 N 39 3 21
+TOP 21 2.99999908 12.77499858 0 N 34 2 22
+TOP 22 2.99999908 13.42499982 0 N 44 3 23
+TOP 23 2.99999908 14.07500106 0 N 44 2 24
+#
+# CMP 12
+CMP 4 -7.00000124 48.00000052 270 N RF1 73412-0110 ;0=1,1=0.0000
+PRP Case 'SMD'
+PRP Connector_Type 'IPEX MHF'
+PRP Manufacturer_Name 'Molex'
+PRP Manufacturer_Part_Number '73412-0110'
+PRP Product_Type 'RF Connectors'
+PRP ROHS 'Yes'
+PRP System 'Connector'
+PRP Impedance '50 Ohm'
+TOP 0 -5.5000017 48.00000052 270 N 54 3 1
+TOP 1 -7.00000124 46.52499966 270 N 52 99 2
+TOP 2 -8.50000078 48.00000306 270 N 52 115 3
+TOP 3 -7.00000124 49.47500138 270 N 52 98 4
+#
+# CMP 13
+CMP 11 7.50000024 7.3860025 180 N R19 47K_-_0402_-_%1_-_1/16W ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://www.mouser.com.tr/datasheet/2/427/dcrcwe3-1762152.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com.tr/ProductDetail/Vishay-Dale/CRCW040247K0FKED?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GL%252B3h1elTxqU%3D'
+PRP Manufacturer_Name 'Vishay'
+PRP Manufacturer_Part_Number 'CRCW040247K0FKED'
+PRP Power '1/16W'
+PRP Tolerance '%1'
+PRP Value '47K'
+TOP 0 7.92999938 7.3860025 180 N 52 76 1
+TOP 1 7.0700011 7.3860025 180 N 27 2 2
+#
+# CMP 14
+CMP 11 7.50000024 5.88600296 0 N R18 10K_-_0402_-_%1_-_1/16W ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://www.mouser.com.tr/datasheet/2/427/dcrcwe3-1762152.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com.tr/ProductDetail/Vishay-Dale/CRCW040210K0FKED?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GcalbOv9utCY%3D'
+PRP Manufacturer_Name 'Vishay'
+PRP Manufacturer_Part_Number 'CRCW040210K0FKED'
+PRP Power '1/16W'
+PRP Tolerance '%1'
+PRP Value '10K'
+TOP 0 7.0700011 5.88600296 0 N 27 3 1
+TOP 1 7.92999938 5.88600296 0 N 26 0 2
+#
+# CMP 15
+CMP 11 5.49999916 7.3860025 180 N R17 47K_-_0402_-_%1_-_1/16W ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://www.mouser.com.tr/datasheet/2/427/dcrcwe3-1762152.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com.tr/ProductDetail/Vishay-Dale/CRCW040247K0FKED?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GL%252B3h1elTxqU%3D'
+PRP Manufacturer_Name 'Vishay'
+PRP Manufacturer_Part_Number 'CRCW040247K0FKED'
+PRP Power '1/16W'
+PRP Tolerance '%1'
+PRP Value '47K'
+TOP 0 5.9299983 7.3860025 180 N 52 80 1
+TOP 1 5.07000002 7.3860025 180 N 33 2 2
+#
+# CMP 16
+CMP 11 5.49999916 5.88600296 0 N R16 10K_-_0402_-_%1_-_1/16W ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://www.mouser.com.tr/datasheet/2/427/dcrcwe3-1762152.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com.tr/ProductDetail/Vishay-Dale/CRCW040210K0FKED?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GcalbOv9utCY%3D'
+PRP Manufacturer_Name 'Vishay'
+PRP Manufacturer_Part_Number 'CRCW040210K0FKED'
+PRP Power '1/16W'
+PRP Tolerance '%1'
+PRP Value '10K'
+TOP 0 5.07000002 5.88600296 0 N 33 3 1
+TOP 1 5.9299983 5.88600296 0 N 32 0 2
+#
+# CMP 17
+CMP 11 -7.00000124 8.99999978 90 N R15 47K_-_0402_-_%1_-_1/16W ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://www.mouser.com.tr/datasheet/2/427/dcrcwe3-1762152.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com.tr/ProductDetail/Vishay-Dale/CRCW040247K0FKED?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GL%252B3h1elTxqU%3D'
+PRP Manufacturer_Name 'Vishay'
+PRP Manufacturer_Part_Number 'CRCW040247K0FKED'
+PRP Power '1/16W'
+PRP Tolerance '%1'
+PRP Value '47K'
+TOP 0 -7.00000124 9.42999892 90 N 52 128 1
+TOP 1 -7.00000124 8.57000064 90 N 4 2 2
+#
+# CMP 18
+CMP 11 -13.00000194 9.00000232 90 N R14 383K_-_0402_-_%1_-_1/16W ;0=1,1=0.0000
+PRP Case '0402'
+PRP Manufacturer_Name 'Vishay'
+PRP Manufacturer_Part_Number 'CRCW0402383KFKED'
+PRP Power '1/16W'
+PRP Tolerance '%1'
+PRP Value '383K'
+TOP 0 -13.00000194 9.43000146 90 N 22 2 1
+TOP 1 -13.00000194 8.57000318 90 N 21 13 2
+#
+# CMP 19
+CMP 11 9.49999878 11.63600162 0 N R13 100K_-_0402_-_%1_-_1/16W ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://www.mouser.com.tr/datasheet/2/427/dcrcwe3-1762152.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com.tr/ProductDetail/Vishay-Dale/CRCW040210K0FKED?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GcalbOv9utCY%3D'
+PRP Manufacturer_Name 'Vishay'
+PRP Manufacturer_Part_Number 'CRCW0402100KFKED'
+PRP Power '1/16W'
+PRP Tolerance '%1'
+PRP Value '100K'
+TOP 0 9.06999964 11.63600162 0 N 30 3 1
+TOP 1 9.92999792 11.63600162 0 N 21 7 2
+#
+# CMP 20
+CMP 11 9.49999878 14.1360017 0 N R12 330R_-_0402_-_%1_-_1/16W ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://www.mouser.com.tr/datasheet/2/427/dcrcwe3-1762152.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com.tr/ProductDetail/Vishay-Dale/CRCW0402330RFKED?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GGS6SwBlLi5Q%3D'
+PRP Manufacturer_Name 'Vishay'
+PRP Manufacturer_Part_Number 'CRCW0402330RFKED'
+PRP Power '1/16W'
+PRP Tolerance '%1'
+PRP Value '330R'
+TOP 0 9.06999964 14.1360017 0 N 17 1 1
+TOP 1 9.92999792 14.1360017 0 N 8 2 2
+#
+# CMP 21
+CMP 11 9.50000132 15.63600124 180 N R11 0R_-_0402_-_%1_-_1/16W ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://www.mouser.com.tr/datasheet/2/427/dcrcwe3-1762152.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com.tr/ProductDetail/Vishay-Dale/CRCW04020000Z0ED?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GG34cJb50zyg%3D'
+PRP Manufacturer_Name 'Vishay'
+PRP Manufacturer_Part_Number 'CRCW04020000Z0ED'
+PRP Power '1/16W'
+PRP Value '0R'
+TOP 0 9.93000046 15.63600124 180 N 52 56 1
+TOP 1 9.07000218 15.63600124 180 N 16 0 2
+#
+# CMP 22
+CMP 11 -4.49999862 13.26250078 0 N R10 47K_-_0402_-_%1_-_1/16W ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://www.mouser.com.tr/datasheet/2/427/dcrcwe3-1762152.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com.tr/ProductDetail/Vishay-Dale/CRCW040247K0FKED?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GL%252B3h1elTxqU%3D'
+PRP Manufacturer_Name 'Vishay'
+PRP Manufacturer_Part_Number 'CRCW040247K0FKED'
+PRP Power '1/16W'
+PRP Tolerance '%1'
+PRP Value '47K'
+TOP 0 -4.92999776 13.26250078 0 N 52 114 1
+TOP 1 -4.06999948 13.26250078 0 N 20 1 2
+#
+# CMP 23
+CMP 11 -4.49999862 10.82499994 0 N R9 47K_-_0402_-_%1_-_1/16W ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://www.mouser.com.tr/datasheet/2/427/dcrcwe3-1762152.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com.tr/ProductDetail/Vishay-Dale/CRCW040247K0FKED?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GL%252B3h1elTxqU%3D'
+PRP Manufacturer_Name 'Vishay'
+PRP Manufacturer_Part_Number 'CRCW040247K0FKED'
+PRP Power '1/16W'
+PRP Tolerance '%1'
+PRP Value '47K'
+TOP 0 -4.92999776 10.82499994 0 N 52 125 1
+TOP 1 -4.06999948 10.82499994 0 N 29 4 2
+#
+# CMP 24
+CMP 11 -1.00000054 48.00000052 0 N R4 0R_-_0402_-_%1_-_1/16W ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://www.mouser.com.tr/datasheet/2/427/dcrcwe3-1762152.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com.tr/ProductDetail/Vishay-Dale/CRCW04020000Z0ED?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GG34cJb50zyg%3D'
+PRP Manufacturer_Name 'Vishay'
+PRP Manufacturer_Part_Number 'CRCW04020000Z0ED'
+PRP Power '1/16W'
+PRP Value '0R'
+TOP 0 -1.42999968 48.00000052 0 N 54 2 1
+TOP 1 -0.5700014 48.00000052 0 N 53 2 2
+#
+# CMP 25
+CMP 11 9.50000132 7.3860025 180 N R3 47K_-_0402_-_%1_-_1/16W ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://www.mouser.com.tr/datasheet/2/427/dcrcwe3-1762152.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com.tr/ProductDetail/Vishay-Dale/CRCW040247K0FKED?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GL%252B3h1elTxqU%3D'
+PRP Manufacturer_Name 'Vishay'
+PRP Manufacturer_Part_Number 'CRCW040247K0FKED'
+PRP Power '1/16W'
+PRP Tolerance '%1'
+PRP Value '47K'
+TOP 0 9.93000046 7.3860025 180 N 52 61 1
+TOP 1 9.07000218 7.3860025 180 N 50 1 2
+#
+# CMP 26
+CMP 11 9.49999878 6.63600146 0 N R2 4K7_-_0402_-_%1_-_1/16W ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://www.mouser.com.tr/datasheet/2/427/dcrcwe3-1762152.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com.tr/ProductDetail/Vishay-Dale/CRCW04024K70FKED?qs=sGAEpiMZZMu61qfTUdNhG7nHf%2F6MTUn3HadIdDQu24Q%3D'
+PRP Manufacturer_Name 'Vishay'
+PRP Manufacturer_Part_Number 'CRCW04024K70FKED'
+PRP Power '1/16W'
+PRP Tolerance '%1'
+PRP Value '4K7'
+TOP 0 9.06999964 6.63600146 0 N 50 3 1
+TOP 1 9.92999792 6.63600146 0 N 51 1 2
+#
+# CMP 27
+CMP 11 9.49999878 9.88600258 0 N R1 330R_-_0402_-_%1_-_1/16W ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://www.mouser.com.tr/datasheet/2/427/dcrcwe3-1762152.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com.tr/ProductDetail/Vishay-Dale/CRCW0402330RFKED?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GGS6SwBlLi5Q%3D'
+PRP Manufacturer_Name 'Vishay'
+PRP Manufacturer_Part_Number 'CRCW0402330RFKED'
+PRP Power '1/16W'
+PRP Tolerance '%1'
+PRP Value '330R'
+TOP 0 9.06999964 9.88600258 0 N 49 1 1
+TOP 1 9.92999792 9.88600258 0 N 18 1 2
+#
+# CMP 28
+CMP 12 7.50000024 8.63600254 180 N Q4 BC847AQAZ ;0=1,1=0.0000
+PRP Case 'DFN-1010D-3'
+PRP Manufacturer_Name 'Nexperia'
+PRP Manufacturer_Part_Number 'BC847AQAZ'
+PRP Polarity 'NPN'
+TOP 0 7.12499972 8.18600344 180 N 27 0 1
+TOP 1 7.87500076 8.18600344 180 N 52 67 2
+TOP 2 7.50000024 9.08600164 180 N 40 1 3
+#
+# CMP 29
+CMP 12 9.49999878 8.63600254 180 N Q1 BC847AQAZ ;0=1,1=0.0000
+PRP Case 'DFN-1010D-3'
+PRP Manufacturer_Name 'Nexperia'
+PRP Manufacturer_Part_Number 'BC847AQAZ'
+PRP Polarity 'NPN'
+TOP 0 9.12499826 8.18600344 180 N 50 0 1
+TOP 1 9.8749993 8.18600344 180 N 52 59 2
+TOP 2 9.49999878 9.08600164 180 N 49 0 3
+#
+# CMP 30
+CMP 12 9.49999878 12.88600166 180 N Q2 BC847AQAZ ;0=1,1=0.0000
+PRP Case 'DFN-1010D-3'
+PRP Manufacturer_Name 'Nexperia'
+PRP Manufacturer_Part_Number 'BC847AQAZ'
+PRP Polarity 'NPN'
+TOP 0 9.12499826 12.43600256 180 N 30 1 1
+TOP 1 9.8749993 12.43600256 180 N 52 58 2
+TOP 2 9.49999878 13.33600076 180 N 17 0 3
+#
+# CMP 31
+CMP 5 -3.50000062 48.42999966 90 N L2 Fixed_Inductor ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://www.mouser.com.tr/datasheet/2/281/JELF243B-0009-1699631.pdf'
+PRP Height '0.35mm'
+PRP Manufacturer_Name 'Murata Electronics'
+PRP Manufacturer_Part_Number 'LQG15HN1N0S02D'
+PRP Tolerance '0.3 nH'
+PRP Value '1nH'
+TOP 0 -3.50000062 48.8599988 90 N 52 95 1
+TOP 1 -3.50000062 48.00000052 90 N 54 0 2
+#
+# CMP 32
+CMP 5 1.49999954 48.42999966 90 N L1 Fixed_Inductor ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://www.mouser.com.tr/datasheet/2/281/JELF243B-0009-1699631.pdf'
+PRP Height '0.35mm'
+PRP Manufacturer_Name 'Murata Electronics'
+PRP Manufacturer_Part_Number 'LQG15HN1N0S02D'
+PRP Tolerance '0.3 nH'
+PRP Value '1nH'
+TOP 0 1.49999954 48.8599988 90 N 52 37 1
+TOP 1 1.49999954 48.00000052 90 N 53 3 2
+#
+# CMP 33
+CMP 8 12.08499742 13.27499758 0 N D7 SMD_LED_(Red) ;0=1,1=0.0000
+PRP Case '0402'
+PRP Color 'Red'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://www.mouser.com.tr/datasheet/2/348/sml-p1-e-1139198.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com.tr/ProductDetail/ROHM-Semiconductor/SML-P12U2TT86R?qs=sGAEpiMZZMseGfSY3csMkRIBDsfU3UCXJTULB5gem9Ta%252Bp%252BvZ709fg%3D%3D'
+PRP Manufacturer_Name 'ROHM Semiconductor'
+PRP Manufacturer_Part_Number 'SML-P12VTT86R'
+PRP ROHS 'Yes'
+TOP 0 11.63499832 13.27499758 0 N 8 0 1
+TOP 1 12.53499652 13.27499758 0 N 23 2 2
+#
+# CMP 34
+CMP 8 12.08499742 8.27499742 0 N D6 SMD_LED_(Green) ;0=1,1=0.0000
+PRP Case '0402'
+PRP Color 'Green'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://www.mouser.com.tr/datasheet/2/348/sml-p1-e-1139198.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com.tr/ProductDetail/ROHM-Semiconductor/SML-P12U2TT86R?qs=sGAEpiMZZMseGfSY3csMkRIBDsfU3UCXJTULB5gem9Ta%252Bp%252BvZ709fg%3D%3D'
+PRP Manufacturer_Name 'ROHM Semiconductor'
+PRP Manufacturer_Part_Number 'SML-P12MTT86R'
+PRP ROHS 'Yes'
+TOP 0 11.63499832 8.27499742 0 N 18 0 1
+TOP 1 12.53499652 8.27499742 0 N 23 4 2
+#
+# CMP 35
+CMP 0 7.50000024 6.63600146 180 N C37 Capacitor_-_33pF_[0402]_(Ceramic) ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://api.kemet.com/component-edge/download/datasheet/C0402C330J9RACAUTO.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0402C330J9RAUTO'
+PRP Manufacturer_Name 'Kemet'
+PRP Manufacturer_Part_Number 'C0402C330J9RACAUTO'
+PRP Tolerance '10%'
+PRP Value '33pF'
+PRP Voltage '6V3'
+TOP 0 7.92999938 6.63600146 180 N 52 75 1
+TOP 1 7.0700011 6.63600146 180 N 27 1 2
+#
+# CMP 36
+CMP 0 5.49999916 6.63600146 180 N C36 Capacitor_-_33pF_[0402]_(Ceramic) ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://api.kemet.com/component-edge/download/datasheet/C0402C330J9RACAUTO.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0402C330J9RAUTO'
+PRP Manufacturer_Name 'Kemet'
+PRP Manufacturer_Part_Number 'C0402C330J9RACAUTO'
+PRP Tolerance '10%'
+PRP Value '33pF'
+PRP Voltage '6V3'
+TOP 0 5.9299983 6.63600146 180 N 52 79 1
+TOP 1 5.07000002 6.63600146 180 N 33 1 2
+#
+# CMP 37
+CMP 0 -12.7499999 12.9999994 0 N C33 Capacitor_-_100nF_[0402]_(Ceramic) ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'Mouser'
+PRP ComponentLink1URL 'https://www.mouser.com.tr/ProductDetail/AVX/04026D104KAT4A?qs=sGAEpiMZZMs0AnBnWHyRQPg4iYkCw7IMED%2F4kpqgf7w%3D'
+PRP ComponentLink2Description 'DataSheet'
+PRP ComponentLink2URL 'https://www.mouser.com.tr/datasheet/2/40/cx5r-776519.pdf'
+PRP Manufacturer_Name 'AVX'
+PRP Manufacturer_Part_Number '04026D104KAT4A'
+PRP Tolerance '%10'
+PRP Value '100nF'
+PRP Voltage '6V3'
+TOP 0 -13.17999904 12.9999994 0 N 52 122 1
+TOP 1 -12.32000076 12.9999994 0 N 21 10 2
+#
+# CMP 38
+CMP 0 -12.7499999 11.69999946 180 N C32 Capacitor_-_68uF_[2917]_(Tantalum) ;0=1,1=0.0000
+PRP Case '2917'
+PRP ESR '25 m'
+PRP Manufacturer_Name 'Panasonic'
+PRP Manufacturer_Part_Number '10TPE68M'
+PRP Tolerance '20%'
+PRP Value '68uF'
+PRP Voltage '10V'
+TOP 0 -12.32000076 11.69999946 180 N 21 12 1
+TOP 1 -13.17999904 11.69999946 180 N 52 123 2
+#
+# CMP 39
+CMP 0 -12.2500009 7.50000024 90 N C31 Capacitor_-_4.7nF_[0402]_(MLCC) ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://www.mouser.com.tr/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com.tr/ProductDetail/KEMET/C0402C472K9RACTU?qs=9uNKmdvpmtsLrzteMCrAvw%3D%3D'
+PRP Manufacturer_Name 'KEMET'
+PRP Manufacturer_Part_Number 'C0402C472K9RACTU'
+PRP Subcategory 'Capacitors'
+PRP Tolerance '10%'
+PRP Value '4.7nF'
+PRP Voltage '6V3'
+TOP 0 -12.2500009 7.92999938 90 N 52 140 1
+TOP 1 -12.2500009 7.0700011 90 N 3 1 2
+#
+# CMP 40
+CMP 0 -7.00000124 7.50000024 270 N C30 Capacitor_-_33pF_[0402]_(Ceramic) ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://api.kemet.com/component-edge/download/datasheet/C0402C330J9RACAUTO.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0402C330J9RAUTO'
+PRP Manufacturer_Name 'Kemet'
+PRP Manufacturer_Part_Number 'C0402C330J9RACAUTO'
+PRP Tolerance '10%'
+PRP Value '33pF'
+PRP Voltage '6V3'
+TOP 0 -7.00000124 7.0700011 270 N 52 129 1
+TOP 1 -7.00000124 7.92999938 270 N 4 1 2
+#
+# CMP 41
+CMP 1 -8.50000078 6.0000007 180 N C29 Capacitor_-_22uF_[0603]_(MLCC) ;0=1,1=0.0000
+PRP Case '0603'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://www.mouser.com.tr/datasheet/2/281/1/GRM188R60J226MEA0_01A-1985763.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com.tr/ProductDetail/Murata-Electronics/GRM188R60J226MEA0D?qs=p%2FZgMVRdWRkAKoLX3oNjgw%3D%3D'
+PRP Manufacturer_Name 'Murata Electronics'
+PRP Manufacturer_Part_Number 'GRM188R60J226MEA0D'
+PRP Subcategory 'Capacitors'
+PRP Tolerance '20%'
+PRP Value '22uF'
+PRP Voltage '6.3V'
+TOP 0 -7.74999974 6.0000007 180 N 52 132 1
+TOP 1 -9.25000182 6.0000007 180 N 43 5 2
+#
+# CMP 42
+CMP 1 -11.49999986 6.0000007 0 N C28 Capacitor_-_22uF_[0603]_(MLCC) ;0=1,1=0.0000
+PRP Case '0603'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://www.mouser.com.tr/datasheet/2/281/1/GRM188R60J226MEA0_01A-1985763.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com.tr/ProductDetail/Murata-Electronics/GRM188R60J226MEA0D?qs=p%2FZgMVRdWRkAKoLX3oNjgw%3D%3D'
+PRP Manufacturer_Name 'Murata Electronics'
+PRP Manufacturer_Part_Number 'GRM188R60J226MEA0D'
+PRP Subcategory 'Capacitors'
+PRP Tolerance '20%'
+PRP Value '22uF'
+PRP Voltage '6.3V'
+TOP 0 -12.2500009 6.0000007 0 N 52 141 1
+TOP 1 -10.74999882 6.0000007 0 N 43 9 2
+#
+# CMP 43
+CMP 0 -8.06499784 4.75000066 180 N C27 Capacitor_-_1uF_[0603]_(Ceramic) ;0=1,1=0.0000
+PRP Case '0603'
+PRP Manufacturer_Name 'Murata'
+PRP Manufacturer_Part_Number 'GCJ188R71E105KA01D'
+PRP Tolerance '10%'
+PRP Value '1uF'
+PRP Voltage '25V'
+TOP 0 -7.6349987 4.75000066 180 N 52 131 1
+TOP 1 -8.49499698 4.75000066 180 N 43 6 2
+#
+# CMP 44
+CMP 0 4.50000116 14.8860002 180 N C26 Capacitor_-_33pF_[0402]_(Ceramic) ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://api.kemet.com/component-edge/download/datasheet/C0402C330J9RACAUTO.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0402C330J9RAUTO'
+PRP Manufacturer_Name 'Kemet'
+PRP Manufacturer_Part_Number 'C0402C330J9RACAUTO'
+PRP Tolerance '10%'
+PRP Value '33pF'
+PRP Voltage '6V3'
+TOP 0 4.9300003 14.8860002 180 N 52 71 1
+TOP 1 4.07000202 14.8860002 180 N 44 0 2
+#
+# CMP 45
+CMP 0 9.49999878 14.88600274 0 N C23 Capacitor_-_33pF_[0402]_(Ceramic) ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://api.kemet.com/component-edge/download/datasheet/C0402C330J9RACAUTO.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0402C330J9RAUTO'
+PRP Manufacturer_Name 'Kemet'
+PRP Manufacturer_Part_Number 'C0402C330J9RACAUTO'
+PRP Tolerance '10%'
+PRP Value '33pF'
+PRP Voltage '6V3'
+TOP 0 9.06999964 14.88600274 0 N 52 65 1
+TOP 1 9.92999792 14.88600274 0 N 8 1 2
+#
+# CMP 46
+CMP 0 9.49999878 10.88600312 180 N C22 Capacitor_-_33pF_[0402]_(Ceramic) ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://api.kemet.com/component-edge/download/datasheet/C0402C330J9RACAUTO.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0402C330J9RAUTO'
+PRP Manufacturer_Name 'Kemet'
+PRP Manufacturer_Part_Number 'C0402C330J9RACAUTO'
+PRP Tolerance '10%'
+PRP Value '33pF'
+PRP Voltage '6V3'
+TOP 0 9.92999792 10.88600312 180 N 52 57 1
+TOP 1 9.06999964 10.88600312 180 N 30 2 2
+#
+# CMP 47
+CMP 0 4.07000202 8.6549992 90 N C21 Capacitor_-_33pF_[0402]_(Ceramic) ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://api.kemet.com/component-edge/download/datasheet/C0402C330J9RACAUTO.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0402C330J9RAUTO'
+PRP Manufacturer_Name 'Kemet'
+PRP Manufacturer_Part_Number 'C0402C330J9RACAUTO'
+PRP Tolerance '10%'
+PRP Value '33pF'
+PRP Voltage '6V3'
+TOP 0 4.07000202 9.08499834 90 N 52 74 1
+TOP 1 4.07000202 8.22500006 90 N 37 1 2
+#
+# CMP 48
+CMP 0 4.50000116 10.0749989 180 N C20 Capacitor_-_33pF_[0402]_(Ceramic) ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://api.kemet.com/component-edge/download/datasheet/C0402C330J9RACAUTO.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0402C330J9RAUTO'
+PRP Manufacturer_Name 'Kemet'
+PRP Manufacturer_Part_Number 'C0402C330J9RACAUTO'
+PRP Tolerance '10%'
+PRP Value '33pF'
+PRP Voltage '6V3'
+TOP 0 4.9300003 10.0749989 180 N 52 68 1
+TOP 1 4.07000202 10.0749989 180 N 35 1 2
+#
+# CMP 49
+CMP 0 4.50000116 10.82499994 180 N C19 Capacitor_-_33pF_[0402]_(Ceramic) ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://api.kemet.com/component-edge/download/datasheet/C0402C330J9RACAUTO.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0402C330J9RAUTO'
+PRP Manufacturer_Name 'Kemet'
+PRP Manufacturer_Part_Number 'C0402C330J9RACAUTO'
+PRP Tolerance '10%'
+PRP Value '33pF'
+PRP Voltage '6V3'
+TOP 0 4.9300003 10.82499994 180 N 52 66 1
+TOP 1 4.07000202 10.82499994 180 N 38 1 2
+#
+# CMP 50
+CMP 0 4.50000116 11.63750022 180 N C18 Capacitor_-_33pF_[0402]_(Ceramic) ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://api.kemet.com/component-edge/download/datasheet/C0402C330J9RACAUTO.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0402C330J9RAUTO'
+PRP Manufacturer_Name 'Kemet'
+PRP Manufacturer_Part_Number 'C0402C330J9RACAUTO'
+PRP Tolerance '10%'
+PRP Value '33pF'
+PRP Voltage '6V3'
+TOP 0 4.9300003 11.63750022 180 N 52 73 1
+TOP 1 4.07000202 11.63750022 180 N 36 1 2
+#
+# CMP 51
+CMP 0 4.50000116 12.4500005 180 N C17 Capacitor_-_33pF_[0402]_(Ceramic) ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://api.kemet.com/component-edge/download/datasheet/C0402C330J9RACAUTO.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0402C330J9RAUTO'
+PRP Manufacturer_Name 'Kemet'
+PRP Manufacturer_Part_Number 'C0402C330J9RACAUTO'
+PRP Tolerance '10%'
+PRP Value '33pF'
+PRP Voltage '6V3'
+TOP 0 4.9300003 12.4500005 180 N 52 72 1
+TOP 1 4.07000202 12.4500005 180 N 39 2 2
+#
+# CMP 52
+CMP 0 -6.60001474 5.00000016 90 N C16 Capacitor_-_33pF_[0402]_(Ceramic) ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://api.kemet.com/component-edge/download/datasheet/C0402C330J9RACAUTO.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0402C330J9RAUTO'
+PRP Manufacturer_Name 'Kemet'
+PRP Manufacturer_Part_Number 'C0402C330J9RACAUTO'
+PRP Tolerance '10%'
+PRP Value '33pF'
+PRP Voltage '6V3'
+TOP 0 -6.60001474 5.4299993 90 N 52 130 1
+TOP 1 -6.60001474 4.57000102 90 N 34 3 2
+#
+# CMP 53
+CMP 0 -1.40001244 5.00000016 90 N C15 Capacitor_-_33pF_[0402]_(Ceramic) ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://api.kemet.com/component-edge/download/datasheet/C0402C330J9RACAUTO.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0402C330J9RAUTO'
+PRP Manufacturer_Name 'Kemet'
+PRP Manufacturer_Part_Number 'C0402C330J9RACAUTO'
+PRP Tolerance '10%'
+PRP Value '33pF'
+PRP Voltage '6V3'
+TOP 0 -1.40001244 5.4299993 90 N 52 124 1
+TOP 1 -1.40001244 4.57000102 90 N 28 0 2
+#
+# CMP 54
+CMP 0 -0.60001404 5.00000016 90 N C14 Capacitor_-_33pF_[0402]_(Ceramic) ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://api.kemet.com/component-edge/download/datasheet/C0402C330J9RACAUTO.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0402C330J9RAUTO'
+PRP Manufacturer_Name 'Kemet'
+PRP Manufacturer_Part_Number 'C0402C330J9RACAUTO'
+PRP Tolerance '10%'
+PRP Value '33pF'
+PRP Voltage '6V3'
+TOP 0 -0.60001404 5.4299993 90 N 52 127 1
+TOP 1 -0.60001404 4.57000102 90 N 24 0 2
+#
+# CMP 55
+CMP 0 2.99998384 5.00000016 90 N C13 Capacitor_-_33pF_[0402]_(Ceramic) ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://api.kemet.com/component-edge/download/datasheet/C0402C330J9RACAUTO.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0402C330J9RAUTO'
+PRP Manufacturer_Name 'Kemet'
+PRP Manufacturer_Part_Number 'C0402C330J9RACAUTO'
+PRP Tolerance '10%'
+PRP Value '33pF'
+PRP Voltage '6V3'
+TOP 0 2.99998384 5.4299993 90 N 52 83 1
+TOP 1 2.99998384 4.57000102 90 N 29 1 2
+#
+# CMP 56
+CMP 0 -2.50000008 48.42999966 90 N C8 Capacitor_-_1nF_[0402]_(Ceramic) ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://www.mouser.com.tr/datasheet/2/40/X7RDielectric-777024.pdf'
+PRP Manufacturer_Name 'AVX'
+PRP Manufacturer_Part_Number '04026C102MAT2A'
+PRP Tolerance '20%'
+PRP Value '1nF'
+PRP Voltage '6V3'
+TOP 0 -2.50000008 48.8599988 90 N 52 89 1
+TOP 1 -2.50000008 48.00000052 90 N 54 1 2
+#
+# CMP 57
+CMP 0 0.499999 48.42999966 90 N C7 Capacitor_-_1nF_[0402]_(Ceramic) ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://www.mouser.com.tr/datasheet/2/40/X7RDielectric-777024.pdf'
+PRP Manufacturer_Name 'AVX'
+PRP Manufacturer_Part_Number '04026C102MAT2A'
+PRP Tolerance '20%'
+PRP Value '1nF'
+PRP Voltage '6V3'
+TOP 0 0.499999 48.8599988 90 N 52 86 1
+TOP 1 0.499999 48.00000052 90 N 53 1 2
+#
+# CMP 58
+CMP 0 4.50000116 14.0740003 180 N C10 Capacitor_-_100nF_[0402]_(Ceramic) ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'Mouser'
+PRP ComponentLink1URL 'https://www.mouser.com.tr/ProductDetail/AVX/04026D104KAT4A?qs=sGAEpiMZZMs0AnBnWHyRQPg4iYkCw7IMED%2F4kpqgf7w%3D'
+PRP ComponentLink2Description 'DataSheet'
+PRP ComponentLink2URL 'https://www.mouser.com.tr/datasheet/2/40/cx5r-776519.pdf'
+PRP Manufacturer_Name 'AVX'
+PRP Manufacturer_Part_Number '04026D104KAT4A'
+PRP Tolerance '%10'
+PRP Value '100nF'
+PRP Voltage '6V3'
+TOP 0 4.9300003 14.0740003 180 N 52 70 1
+TOP 1 4.07000202 14.0740003 180 N 44 1 2
+#
+# CMP 59
+CMP 0 -4.49999862 14.07500106 0 N C9 Capacitor_-_100nF_[0402]_(Ceramic) ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'Mouser'
+PRP ComponentLink1URL 'https://www.mouser.com.tr/ProductDetail/AVX/04026D104KAT4A?qs=sGAEpiMZZMs0AnBnWHyRQPg4iYkCw7IMED%2F4kpqgf7w%3D'
+PRP ComponentLink2Description 'DataSheet'
+PRP ComponentLink2URL 'https://www.mouser.com.tr/datasheet/2/40/cx5r-776519.pdf'
+PRP Manufacturer_Name 'AVX'
+PRP Manufacturer_Part_Number '04026D104KAT4A'
+PRP Tolerance '%10'
+PRP Value '100nF'
+PRP Voltage '6V3'
+TOP 0 -4.92999776 14.07500106 0 N 52 111 1
+TOP 1 -4.06999948 14.07500106 0 N 23 1 2
+#
+# CMP 60
+CMP 0 9.49999878 5.88600296 180 N C6 Capacitor_-_33pF_[0402]_(Ceramic) ;0=1,1=0.0000
+PRP Case '0402'
+PRP ComponentLink1Description 'DataSheet'
+PRP ComponentLink1URL 'https://api.kemet.com/component-edge/download/datasheet/C0402C330J9RACAUTO.pdf'
+PRP ComponentLink2Description 'Mouser'
+PRP ComponentLink2URL 'https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0402C330J9RAUTO'
+PRP Manufacturer_Name 'Kemet'
+PRP Manufacturer_Part_Number 'C0402C330J9RACAUTO'
+PRP Tolerance '10%'
+PRP Value '33pF'
+PRP Voltage '6V3'
+TOP 0 9.92999792 5.88600296 180 N 52 62 1
+TOP 1 9.06999964 5.88600296 180 N 50 2 2
+#
+# CMP 61
+CMP 7 0 30.49999996 0 N U1 LE910C1-EUX_LTE_GSM_Module ;0=1,1=0.0000
+PRP Case 'BGA'
+PRP Manufacturer_Name 'Telit'
+PRP Manufacturer_Part_Number 'LE910C1-EUX'
+TOP 0 -12.6000002 41.29998598 0 N 52 116 A02
+TOP 1 -12.6000002 39.49998704 0 N 45 4 A03
+TOP 2 -12.6000002 37.6999881 0 N 52 117 A04
+TOP 3 -12.6000002 35.89998916 0 N 47 3 A05
+TOP 4 -12.6000002 34.09999022 0 N 48 3 A06
+TOP 5 -12.6000002 32.29999128 0 N 46 3 A07
+TOP 6 -12.6000002 30.49999234 0 N 0 28 A08
+TOP 7 -12.6000002 28.6999934 0 N 0 11 A09
+TOP 8 -12.6000002 26.89999446 0 N 0 13 A10
+TOP 9 -12.6000002 25.09999552 0 N 0 12 A11
+TOP 10 -12.6000002 23.29999658 0 N 0 8 A12
+TOP 11 -12.6000002 21.49999764 0 N 13 1 A13
+TOP 12 -12.6000002 19.6999987 0 N 0 6 A14
+TOP 13 -10.80000126 43.09998492 0 N 0 37 B01
+TOP 14 -10.80000126 41.29998598 0 N 0 39 B02
+TOP 15 -10.80000126 39.49998704 0 N 0 38 B03
+TOP 16 -10.80000126 37.6999881 0 N 0 34 B04
+TOP 17 -10.80000126 35.89998916 0 N 0 31 B05
+TOP 18 -10.80000126 34.09999022 0 N 0 33 B06
+TOP 19 -10.80000126 32.29999128 0 N 0 32 B07
+TOP 20 -10.80000126 30.49999234 0 N 0 29 B08
+TOP 21 -10.80000126 28.6999934 0 N 0 16 B09
+TOP 22 -10.80000126 26.89999446 0 N 0 18 B10
+TOP 23 -10.80000126 25.09999552 0 N 0 14 B11
+TOP 24 -10.80000126 23.29999658 0 N 0 15 B12
+TOP 25 -10.80000126 21.49999764 0 N 52 119 B13
+TOP 26 -10.80000126 19.6999987 0 N 0 7 B14
+TOP 27 -10.80000126 17.89999976 0 N 6 0 B15
+TOP 28 -9.00000232 43.09998492 0 N 0 48 C01
+TOP 29 -9.00000232 41.29998598 0 N 0 41 C02
+TOP 30 -9.00000232 39.49998704 0 N 0 43 C03
+TOP 31 -9.00000232 37.6999881 0 N 0 35 C04
+TOP 32 -9.00000232 35.89998916 0 N 0 36 C05
+TOP 33 -9.00000232 34.09999022 0 N 0 42 C06
+TOP 34 -9.00000232 32.29999128 0 N 0 40 C07
+TOP 35 -9.00000232 30.49999234 0 N 51 0 C08
+TOP 36 -9.00000232 28.6999934 0 N 0 30 C09
+TOP 37 -9.00000232 26.89999446 0 N 0 22 C10
+TOP 38 -9.00000232 25.09999552 0 N 0 17 C11
+TOP 39 -9.00000232 23.29999658 0 N 0 24 C12
+TOP 40 -9.00000232 21.49999764 0 N 0 10 C13
+TOP 41 -9.00000232 19.6999987 0 N 0 9 C14
+TOP 42 -9.00000232 17.89999976 0 N 7 0 C15
+TOP 43 -7.20000338 43.09998492 0 N 0 50 D01
+TOP 44 -7.20000338 41.29998598 0 N 0 49 D02
+TOP 45 -7.20000338 39.49998704 0 N 0 44 D03
+TOP 46 -7.20000338 37.6999881 0 N 52 102 D04
+TOP 47 -7.20000338 35.89998916 0 N 0 78 D05
+TOP 48 -7.20000338 34.09999022 0 N 0 79 D06
+TOP 49 -7.20000338 32.29999128 0 N 0 80 D07
+TOP 50 -7.20000338 30.49999234 0 N 0 81 D08
+TOP 51 -7.20000338 28.6999934 0 N 0 82 D09
+TOP 52 -7.20000338 26.89999446 0 N 0 83 D10
+TOP 53 -7.20000338 25.16599996 0 N 0 84 D11
+TOP 54 -7.20000338 23.29999658 0 N 0 25 D12
+TOP 55 -7.20000338 21.49999764 0 N 0 23 D13
+TOP 56 -7.20000338 19.6999987 0 N 0 19 D14
+TOP 57 -7.20000338 17.89999976 0 N 12 0 D15
+TOP 58 -5.40000444 43.09998492 0 N 52 96 E01
+TOP 59 -5.40000444 41.29998598 0 N 52 97 E02
+TOP 60 -5.40000444 39.49998704 0 N 0 45 E03
+TOP 61 -5.40000444 37.6999881 0 N 0 85 E04
+TOP 62 -5.40000444 23.29999658 0 N 0 96 E12
+TOP 63 -5.40000444 21.49999764 0 N 44 4 E13
+TOP 64 -5.40000444 19.6999987 0 N 52 110 E14
+TOP 65 -5.40000444 17.89999976 0 N 11 1 E15
+TOP 66 -3.6000055 43.09998492 0 N 0 51 F01
+TOP 67 -3.6000055 41.29998598 0 N 52 100 F02
+TOP 68 -3.6000055 39.49998704 0 N 0 47 F03
+TOP 69 -3.6000055 37.6999881 0 N 0 87 F04
+TOP 70 -3.6000055 23.29999658 0 N 0 98 F12
+TOP 71 -3.6000055 21.49999764 0 N 0 27 F13
+TOP 72 -3.6000055 19.6999987 0 N 1 1 F14
+TOP 73 -3.6000055 17.89999976 0 N 0 20 F15
+TOP 74 -1.80000656 43.09998492 0 N 52 90 G01
+TOP 75 -1.80000656 41.29998598 0 N 52 88 G02
+TOP 76 -1.80000656 39.49998704 0 N 0 46 G03
+TOP 77 -1.80000656 37.6999881 0 N 0 86 G04
+TOP 78 -1.79999894 32.2999989 0 N 52 94 G07
+TOP 79 -1.79999894 30.49999234 0 N 52 106 G08
+TOP 80 -1.79999894 28.70000102 0 N 52 105 G09
+TOP 81 -1.80000656 23.29999658 0 N 0 97 G12
+TOP 82 -1.80000656 21.49999764 0 N 0 26 G13
+TOP 83 -1.80000656 19.6999987 0 N -1 0 G14
+TOP 84 -1.80000656 17.89999976 0 N 0 21 G15
+TOP 85 -0.00000762 43.09998492 0 N 52 87 H01
+TOP 86 -0.00000762 41.29998598 0 N 52 91 H02
+TOP 87 -0.00000762 39.49998704 0 N 0 70 H03
+TOP 88 -0.00000762 37.6999881 0 N 0 88 H04
+TOP 89 -0.00000762 32.2999989 0 N 52 104 H07
+TOP 90 -0.00000762 30.49999234 0 N 52 103 H08
+TOP 91 -0.00000762 28.70000102 0 N 52 107 H09
+TOP 92 -0.00000762 23.29999658 0 N 0 100 H12
+TOP 93 -0.00000762 21.49999764 0 N 0 57 H13
+TOP 94 -0.00000762 19.6999987 0 N 0 54 H14
+TOP 95 -0.00000762 17.89999976 0 N 0 52 H15
+TOP 96 1.79999132 43.09998492 0 N 52 38 J01
+TOP 97 1.79999132 41.29998598 0 N 52 35 J02
+TOP 98 1.79999132 39.49998704 0 N 0 71 J03
+TOP 99 1.79999132 37.6999881 0 N 0 89 J04
+TOP 100 1.79999894 32.2999989 0 N 52 52 J07
+TOP 101 1.79999894 30.49999234 0 N 52 53 J08
+TOP 102 1.79999894 28.70000102 0 N 52 55 J09
+TOP 103 1.79999132 23.29999658 0 N 0 99 J12
+TOP 104 1.79999132 21.49999764 0 N 0 56 J13
+TOP 105 1.79999132 19.6999987 0 N -1 0 J14
+TOP 106 1.79999132 17.89999976 0 N 0 53 J15
+TOP 107 3.59999026 43.09998492 0 N 53 0 K01
+TOP 108 3.59999026 41.29998598 0 N 52 36 K02
+TOP 109 3.59999026 39.49998704 0 N 0 72 K03
+TOP 110 3.59999026 37.6999881 0 N 10 0 K04
+TOP 111 3.59999026 23.29999658 0 N 0 102 K12
+TOP 112 3.59999026 21.49999764 0 N 0 59 K13
+TOP 113 3.59999026 19.6999987 0 N -1 0 K14
+TOP 114 3.59999026 17.89999976 0 N 36 0 K15
+TOP 115 5.3999892 43.09998492 0 N 52 34 L01
+TOP 116 5.3999892 41.29998598 0 N 52 28 L02
+TOP 117 5.3999892 39.49998704 0 N 0 75 L03
+TOP 118 5.3999892 37.6999881 0 N 0 90 L04
+TOP 119 5.3999892 23.29999658 0 N 0 101 L12
+TOP 120 5.3999892 21.49999764 0 N 0 58 L13
+TOP 121 5.3999892 19.6999987 0 N 16 1 L14
+TOP 122 5.3999892 17.89999976 0 N 15 0 L15
+TOP 123 7.19998814 43.09998492 0 N 5 3 M01
+TOP 124 7.19998814 41.29998598 0 N 5 2 M02
+TOP 125 7.19998814 39.49998704 0 N 52 25 M03
+TOP 126 7.19998814 37.6999881 0 N 52 32 M04
+TOP 127 7.19998814 35.89998916 0 N 0 95 M05
+TOP 128 7.19998814 34.09999022 0 N 9 1 M06
+TOP 129 7.19998814 32.29999128 0 N 0 93 M07
+TOP 130 7.19998814 30.49999234 0 N 0 94 M08
+TOP 131 7.19998814 28.6999934 0 N 14 1 M09
+TOP 132 7.19998814 26.89999446 0 N 0 92 M10
+TOP 133 7.19998814 25.09999552 0 N 0 91 M11
+TOP 134 7.19998814 23.29999658 0 N 52 48 M12
+TOP 135 7.19998814 21.49999764 0 N 0 60 M13
+TOP 136 7.19998814 19.6999987 0 N 0 61 M14
+TOP 137 7.19998814 17.89999976 0 N 35 0 M15
+TOP 138 8.99998708 43.09998492 0 N 42 5 N01
+TOP 139 8.99998708 41.29998598 0 N 42 6 N02
+TOP 140 8.99998708 39.49998704 0 N 52 24 N03
+TOP 141 8.99998708 37.6999881 0 N 52 33 N04
+TOP 142 8.99998708 35.89998916 0 N 52 30 N05
+TOP 143 8.99998708 34.09999022 0 N 52 29 N06
+TOP 144 8.99998708 32.29999128 0 N 0 73 N07
+TOP 145 8.99998708 30.49999234 0 N 0 74 N08
+TOP 146 8.99998708 28.6999934 0 N -1 0 N09
+TOP 147 8.99998708 26.89999446 0 N 0 68 N10
+TOP 148 8.99998708 25.09999552 0 N 0 64 N11
+TOP 149 8.99998708 23.29999658 0 N 0 65 N12
+TOP 150 8.99998708 21.49999764 0 N 0 62 N13
+TOP 151 8.99998708 19.6999987 0 N 0 55 N14
+TOP 152 8.99998708 17.89999976 0 N 37 0 N15
+TOP 153 10.79998602 43.09998492 0 N 42 8 P01
+TOP 154 10.79998602 41.29998598 0 N 42 7 P02
+TOP 155 10.79998602 39.49998704 0 N 52 26 P03
+TOP 156 10.79998602 37.6999881 0 N 52 18 P04
+TOP 157 10.79998602 35.89998916 0 N 52 19 P05
+TOP 158 10.79998602 34.09999022 0 N 52 31 P06
+TOP 159 10.79998602 32.29999128 0 N 0 76 P07
+TOP 160 10.79998602 30.49999234 0 N 52 43 P08
+TOP 161 10.79998602 28.6999934 0 N 52 42 P09
+TOP 162 10.79998602 26.89999446 0 N 52 47 P10
+TOP 163 10.79998602 25.09999552 0 N 0 69 P11
+TOP 164 10.79998602 23.29999658 0 N 0 67 P12
+TOP 165 10.79998602 21.49999764 0 N 52 23 P13
+TOP 166 10.79998602 19.6999987 0 N 0 63 P14
+TOP 167 10.79998602 17.89999976 0 N 0 66 P15
+TOP 168 12.59998496 41.29998598 0 N 52 15 R02
+TOP 169 12.59998496 39.49998704 0 N 52 13 R03
+TOP 170 12.59998496 37.6999881 0 N 0 77 R04
+TOP 171 12.59998496 35.89998916 0 N 52 17 R05
+TOP 172 12.59998496 34.09999022 0 N 52 20 R06
+TOP 173 12.59998496 32.29999128 0 N -1 0 R07
+TOP 174 12.59998496 30.49999234 0 N 52 22 R08
+TOP 175 12.59998496 28.6999934 0 N -1 0 R09
+TOP 176 12.59998496 26.89999446 0 N 52 21 R10
+TOP 177 12.59998496 25.09999552 0 N 39 0 R11
+TOP 178 12.59998496 23.29999658 0 N 41 0 R12
+TOP 179 12.59998496 21.49999764 0 N 40 0 R13
+TOP 180 12.59998496 19.6999987 0 N 38 0 R14
+#
+# CMP 62
+CMP 10 -3.85001516 3.25000112 0 N J1 Connector_-_Mini_PCI-E_[Add-on] ;0=1,1=0.0000
+PRP BUS_Type 'Mini PCI Express'
+PRP Mating_Connector 'TE-1775862-2'
+PRP Number_of_Positions '52'
+PRP Pitch '0.8 mm'
+PRP System 'Connector'
+TOP 0 -11.8000145 1.39999974 0 N 43 14 1
+TOP 1 -11.4000153 1.39999974 0 N 43 13 2
+TOP 2 -11.00001356 1.39999974 0 N 43 10 3
+TOP 3 -10.60001436 1.39999974 0 N 43 12 4
+TOP 4 -10.20001516 1.39999974 0 N 43 11 5
+TOP 5 -9.80001596 1.39999974 0 N 43 7 6
+TOP 6 -9.40001422 1.39999974 0 N 23 7 7
+TOP 7 -9.00001502 1.39999974 0 N 23 6 8
+TOP 8 -8.60001582 1.39999974 0 N -1 0 9
+TOP 9 -8.20001662 1.39999974 0 N 0 0 10
+TOP 10 -7.80001488 1.39999974 0 N 0 103 11
+TOP 11 -7.40001568 1.39999974 0 N 4 4 12
+TOP 12 -7.00001394 1.39999974 0 N 0 104 13
+TOP 13 -6.60001474 1.39999974 0 N 34 4 14
+TOP 14 -6.20001554 1.39999974 0 N 52 138 15
+TOP 15 -5.80001634 1.39999974 0 N 52 137 16
+TOP 16 -2.20001338 1.39999974 0 N 52 135 17
+TOP 17 -1.80001672 1.39999974 0 N 52 136 18
+TOP 18 -1.40001244 1.39999974 0 N 0 105 19
+TOP 19 -1.00001578 1.39999974 0 N 28 1 20
+TOP 20 -0.60001404 1.39999974 0 N 0 106 21
+TOP 21 -0.20001738 1.39999974 0 N 24 1 22
+TOP 22 0.1999869 1.39999974 0 N 52 133 23
+TOP 23 0.59998356 1.39999974 0 N 52 134 24
+TOP 24 0.99998784 1.39999974 0 N 0 107 25
+TOP 25 1.3999845 1.39999974 0 N 31 2 26
+TOP 26 1.79998624 1.39999974 0 N 0 108 27
+TOP 27 2.1999829 1.39999974 0 N 25 2 28
+TOP 28 2.59998718 1.39999974 0 N 0 109 29
+TOP 29 2.99998384 1.39999974 0 N 29 2 30
+TOP 30 3.39998812 1.39999974 0 N 0 110 31
+TOP 31 3.79998478 1.39999974 0 N 32 2 32
+TOP 32 4.19998652 1.39999974 0 N 0 111 33
+TOP 33 4.59998318 1.39999974 0 N 26 2 34
+TOP 34 4.99998492 1.39999974 0 N 0 112 35
+TOP 35 5.39998158 1.39999974 0 N -1 0 36
+TOP 36 5.7999884 1.39999974 0 N 0 113 37
+TOP 37 6.19998506 1.39999974 0 N 0 1 38
+TOP 38 6.5999868 1.39999974 0 N 0 114 39
+TOP 39 6.99998346 1.39999974 0 N -1 0 40
+TOP 40 7.3999852 1.39999974 0 N 52 84 41
+TOP 41 7.79998186 1.39999974 0 N 52 78 42
+TOP 42 8.19998614 1.39999974 0 N 0 115 43
+TOP 43 8.5999828 1.39999974 0 N 0 2 44
+TOP 44 8.99998708 1.39999974 0 N 52 77 45
+TOP 45 9.39998374 1.39999974 0 N 52 63 46
+TOP 46 9.79998548 1.39999974 0 N 0 116 47
+TOP 47 10.19998214 1.39999974 0 N 0 3 48
+TOP 48 10.59998642 1.39999974 0 N 0 117 49
+TOP 49 10.99998308 1.39999974 0 N 0 4 50
+TOP 50 11.39998736 1.39999974 0 N 52 64 51
+TOP 51 11.79998402 1.39999974 0 N 52 60 52
+#

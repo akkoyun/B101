@@ -135,23 +135,6 @@ GenerateClassCluster=0
 DocumentUniqueId=OJYIUWKE
 
 [Document6]
-DocumentPath=Schematics\USB.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=21
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=IVQYSUIA
-
-[Document7]
 DocumentPath=Schematics\SIM_Socket.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -168,7 +151,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YAVURKGV
 
-[Document8]
+[Document7]
 DocumentPath=Schematics\Antenna.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -185,7 +168,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VOXJUCVN
 
-[Document9]
+[Document8]
 DocumentPath=Schematics\Stat_LED_Driver.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -202,7 +185,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CJELZIYH
 
-[Document10]
+[Document9]
 DocumentPath=Schematics\Unused_Modem_Pins.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -219,7 +202,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RRAWGTXY
 
-[Document11]
+[Document10]
 DocumentPath=B101BA.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -236,7 +219,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
+[Document11]
 DocumentPath=B101BA.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -253,24 +236,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BDWSDAST
 
-[Document13]
-DocumentPath=Output\Output Job.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document14]
+[Document12]
 DocumentPath=B101BA.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -285,10 +251,27 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=EQIERGZH
 
-[Document15]
-DocumentPath=Schematics\Edge_Connector.Harness
+[Document13]
+DocumentPath=B101BA_1.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LTIZZJAB
+
+[Document14]
+DocumentPath=Job File.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -304,230 +287,678 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document16]
-DocumentPath=Schematics\USB.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
+[ProjectVariant1]
+UniqueId=f3650b9e-0784-444a-8735-b40c1f2fb82e
+Description=Production
+AllowFabrication=0
+ParameterCount=0
+VariationCount=9
+Variation1=Designator=L1|UniqueId=\DPKELLPK\XOVQOQKT|Kind=1|AlternatePart=
+Variation2=Designator=C7|UniqueId=\DPKELLPK\ELEEKBLI|Kind=1|AlternatePart=
+Variation3=Designator=C8|UniqueId=\DPKELLPK\FIMIOPQX|Kind=1|AlternatePart=
+Variation4=Designator=L2|UniqueId=\DPKELLPK\YYGNIIUG|Kind=1|AlternatePart=
+Variation5=Designator=C1|UniqueId=\UNZJKOAC\HCCPOLRK|Kind=0|AlternatePart=
+Variation6=Designator=C2|UniqueId=\UNZJKOAC\FABKNZUK|Kind=1|AlternatePart=
+Variation7=Designator=C3|UniqueId=\UNZJKOAC\COWDHDMV|Kind=1|AlternatePart=
+Variation8=Designator=C4|UniqueId=\UNZJKOAC\GDNIEFJL|Kind=1|AlternatePart=
+Variation9=Designator=C5|UniqueId=\UNZJKOAC\TLHXVTHB|Kind=1|AlternatePart=
+ParamVariationCount=0
 
 [GeneratedDocument1]
 DocumentPath=Output\Test Points\Assembly Testpoint Report for B101AA.csv
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Output\NC Drill\B101AA.DRR
+DocumentPath=Output\2026-02-18\Test Points\Assembly Testpoint Report for B101BA.csv
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Output\Gerber\B101AA.EXTREP
+DocumentPath=Output\2026-02-18\Test Points\Assembly Testpoint Report for B101BA.ipc
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Output\Gerber\B101AA.G1
+DocumentPath=Output\NC Drill\B101AA.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Output\Gerber\B101AA.G2
+DocumentPath=Output\Gerber\B101AA.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Output\Gerber\B101AA.GBL
+DocumentPath=Output\Gerber\B101AA.G1
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Output\Gerber\B101AA.GBO
+DocumentPath=Output\Gerber\B101AA.G2
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Output\Gerber\B101AA.GBP
+DocumentPath=Output\Gerber\B101AA.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Output\Gerber\B101AA.GBS
+DocumentPath=Output\Gerber\B101AA.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Output\Gerber\B101AA.GD1
+DocumentPath=Output\Gerber\B101AA.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Output\Gerber\B101AA.GG1
+DocumentPath=Output\Gerber\B101AA.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Output\Gerber\B101AA.GKO
+DocumentPath=Output\Gerber\B101AA.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Output\Gerber\B101AA.GM1
+DocumentPath=Output\Gerber\B101AA.GG1
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Output\Gerber\B101AA.GM2
+DocumentPath=Output\Gerber\B101AA.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Output\Gerber\B101AA.GM3
+DocumentPath=Output\Gerber\B101AA.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Output\Gerber\B101AA.GM4
+DocumentPath=Output\Gerber\B101AA.GM2
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Output\Gerber\B101AA.GM5
+DocumentPath=Output\Gerber\B101AA.GM3
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Output\Gerber\B101AA.GM6
+DocumentPath=Output\Gerber\B101AA.GM4
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Output\Gerber\B101AA.GM10
+DocumentPath=Output\Gerber\B101AA.GM5
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Output\Gerber\B101AA.GM15
+DocumentPath=Output\Gerber\B101AA.GM6
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Output\Gerber\B101AA.GPB
+DocumentPath=Output\Gerber\B101AA.GM10
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Output\Gerber\B101AA.GPT
+DocumentPath=Output\Gerber\B101AA.GM15
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Output\Gerber\B101AA.GTL
+DocumentPath=Output\Gerber\B101AA.GPB
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Output\Gerber\B101AA.GTO
+DocumentPath=Output\Gerber\B101AA.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Output\Gerber\B101AA.GTP
+DocumentPath=Output\Gerber\B101AA.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=Output\Gerber\B101AA.GTS
+DocumentPath=Output\Gerber\B101AA.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=Output\DRC\B101AA.html
+DocumentPath=Output\Gerber\B101AA.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=Output\ERC\B101AA.html
+DocumentPath=Output\Gerber\B101AA.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=Output\FootprintComparison\B101AA.html
+DocumentPath=Output\DRC\B101AA.html
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=Output\NC Drill\B101AA.LDP
+DocumentPath=Output\ERC\B101AA.html
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=Output\PCB 3D Print\B101AA.png
+DocumentPath=Output\FootprintComparison\B101AA.html
 DItemRevisionGUID=
 
 [GeneratedDocument32]
-DocumentPath=Output\Gerber\B101AA.REP
+DocumentPath=Output\NC Drill\B101AA.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument33]
-DocumentPath=Output\Gerber\B101AA.RUL
+DocumentPath=Output\PCB 3D Print\B101AA.png
 DItemRevisionGUID=
 
 [GeneratedDocument34]
-DocumentPath=Output\ExportSTEP\B101AA.step
+DocumentPath=Output\Gerber\B101AA.REP
 DItemRevisionGUID=
 
 [GeneratedDocument35]
-DocumentPath=Output\NC Drill\B101AA.TXT
+DocumentPath=Output\Gerber\B101AA.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument36]
-DocumentPath=Output\BOM\BOM Checks Report-B101AA.html
+DocumentPath=Output\ExportSTEP\B101AA.step
 DItemRevisionGUID=
 
 [GeneratedDocument37]
-DocumentPath=Output\ReportComponents\Component Cross Reference Report-B101AA.csv
+DocumentPath=Output\NC Drill\B101AA.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument38]
+DocumentPath=Output\2026-02-18\Gerber\B101BA.1
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Output\2026-02-18\Gerber\B101BA.2
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Output\2026-02-18\Gerber\B101BA.3
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Output\2026-02-18\IPC2581\B101BA.cvg
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=Output\2026-02-18\NC Drill\B101BA.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=Output\2026-02-18\Gerber\B101BA.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Output\2026-02-18\GerberX2\B101BA.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=Output\2026-02-18\Gerber\B101BA.G1
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=Output\2026-02-18\Gerber\B101BA.G2
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument48]
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument49]
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument50]
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument51]
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument52]
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument53]
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GM2
+DItemRevisionGUID=
+
+[GeneratedDocument54]
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GM3
+DItemRevisionGUID=
+
+[GeneratedDocument55]
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GM4
+DItemRevisionGUID=
+
+[GeneratedDocument56]
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GM5
+DItemRevisionGUID=
+
+[GeneratedDocument57]
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GM6
+DItemRevisionGUID=
+
+[GeneratedDocument58]
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GM7
+DItemRevisionGUID=
+
+[GeneratedDocument59]
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GM10
+DItemRevisionGUID=
+
+[GeneratedDocument60]
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument61]
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument62]
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GML
+DItemRevisionGUID=
+
+[GeneratedDocument63]
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument64]
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument65]
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument66]
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument67]
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument68]
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument69]
+DocumentPath=Output\2026-02-18\DRC\B101BA.html
+DItemRevisionGUID=
+
+[GeneratedDocument70]
+DocumentPath=Output\2026-02-18\ERC\B101BA.html
+DItemRevisionGUID=
+
+[GeneratedDocument71]
+DocumentPath=Output\2026-02-18\NC Drill\B101BA.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument72]
+DocumentPath=Output\2026-02-18\PCB 3D Print\B101BA.png
+DItemRevisionGUID=
+
+[GeneratedDocument73]
+DocumentPath=Output\2026-02-18\Gerber\B101BA.REP
+DItemRevisionGUID=
+
+[GeneratedDocument74]
+DocumentPath=Output\2026-02-18\GerberX2\B101BA.REP
+DItemRevisionGUID=
+
+[GeneratedDocument75]
+DocumentPath=Output\2026-02-18\ODB\B101BA.REP
+DItemRevisionGUID=
+
+[GeneratedDocument76]
+DocumentPath=Output\2026-02-18\ReportHierarchy\B101BA.REP
+DItemRevisionGUID=
+
+[GeneratedDocument77]
+DocumentPath=Output\2026-02-18\SinglePinNetReporter\B101BA.REP
+DItemRevisionGUID=
+
+[GeneratedDocument78]
+DocumentPath=Output\2026-02-18\ExportSTEP\B101BA.step
+DItemRevisionGUID=
+
+[GeneratedDocument79]
+DocumentPath=Output\2026-02-18\NC Drill\B101BA.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument80]
+DocumentPath=Output\2026-02-18\ExportSTEP\B101BA.x_t
+DItemRevisionGUID=
+
+[GeneratedDocument81]
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Bottom_3D_Body.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument82]
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Bottom_Assembly.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument83]
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Bottom_Courtyard.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument84]
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Copper_Signal_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument85]
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Copper_Signal_2.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument86]
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Copper_Signal_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument87]
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Copper_Signal_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument88]
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Keep-out.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument89]
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Legend_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument90]
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Legend_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument91]
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Mechanical_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument92]
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Mechanical_8.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument93]
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Pads_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument94]
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Pads_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument95]
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Paste_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument96]
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Paste_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument97]
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Soldermask_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument98]
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Soldermask_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument99]
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Top_3D_Body.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument100]
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Top_Assembly.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument101]
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Top_Courtyard.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument102]
+DocumentPath=Output\2026-02-18\Gerber\B107AA V2.GM
+DItemRevisionGUID=
+
+[GeneratedDocument103]
+DocumentPath=Output\2026-02-18\GerberX2\B107AA V2_Profile.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument104]
+DocumentPath=Output\2026-02-18\BOM\Bill of Materials-B101BA.csv
+DItemRevisionGUID=
+
+[GeneratedDocument105]
+DocumentPath=Output\BOM\BOM Checks Report-B101AA.html
+DItemRevisionGUID=
+
+[GeneratedDocument106]
+DocumentPath=Output\ReportComponents\Component Cross Reference Report-B101AA.csv
+DItemRevisionGUID=
+
+[GeneratedDocument107]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\comp_+_bot\components
+DItemRevisionGUID=
+
+[GeneratedDocument108]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\comp_+_top\components
+DItemRevisionGUID=
+
+[GeneratedDocument109]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\eda\data
+DItemRevisionGUID=
+
+[GeneratedDocument110]
+DocumentPath=Project Outputs for B101BA\Design Rule Check - B101BA.html
+DItemRevisionGUID=
+
+[GeneratedDocument111]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\bottom_3d_body\features
+DItemRevisionGUID=
+
+[GeneratedDocument112]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\bottom_assembly\features
+DItemRevisionGUID=
+
+[GeneratedDocument113]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\bottom_copper_plating\features
+DItemRevisionGUID=
+
+[GeneratedDocument114]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\bottom_courtyard\features
+DItemRevisionGUID=
+
+[GeneratedDocument115]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\bottom_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument116]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\bottom_overlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument117]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\bottom_paste\features
+DItemRevisionGUID=
+
+[GeneratedDocument118]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\bottom_solder\features
+DItemRevisionGUID=
+
+[GeneratedDocument119]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\comp_+_bot\features
+DItemRevisionGUID=
+
+[GeneratedDocument120]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\comp_+_top\features
+DItemRevisionGUID=
+
+[GeneratedDocument121]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\dielectric_1\features
+DItemRevisionGUID=
+
+[GeneratedDocument122]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\dielectric_3\features
+DItemRevisionGUID=
+
+[GeneratedDocument123]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\dielectric_5\features
+DItemRevisionGUID=
+
+[GeneratedDocument124]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\drill_drawing_top_layer-bottom_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument125]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\drill_guide_top_layer-bottom_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument126]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\drill_non-plated_bottom_layer-top_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument127]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\drill_plated_bottom_layer-top_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument128]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\int1\features
+DItemRevisionGUID=
+
+[GeneratedDocument129]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\int2\features
+DItemRevisionGUID=
+
+[GeneratedDocument130]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\keep-out_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument131]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\mechanical_1\features
+DItemRevisionGUID=
+
+[GeneratedDocument132]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\mechanical_8\features
+DItemRevisionGUID=
+
+[GeneratedDocument133]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\top_3d_body\features
+DItemRevisionGUID=
+
+[GeneratedDocument134]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\top_assembly\features
+DItemRevisionGUID=
+
+[GeneratedDocument135]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\top_copper_plating\features
+DItemRevisionGUID=
+
+[GeneratedDocument136]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\top_courtyard\features
+DItemRevisionGUID=
+
+[GeneratedDocument137]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\top_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument138]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\top_overlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument139]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\top_paste\features
+DItemRevisionGUID=
+
+[GeneratedDocument140]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\top_solder\features
+DItemRevisionGUID=
+
+[GeneratedDocument141]
+DocumentPath=Output\2026-02-18\ODB\odb\matrix\matrix
+DItemRevisionGUID=
+
+[GeneratedDocument142]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\netlists\cadnet\netlist
+DItemRevisionGUID=
+
+[GeneratedDocument143]
 DocumentPath=Output\Pick Place\Pick Place for B101AA.txt
 DItemRevisionGUID=
 
+[GeneratedDocument144]
+DocumentPath=Output\2026-02-18\Pick Place\Pick Place for B101BA.txt
+DItemRevisionGUID=
+
+[GeneratedDocument145]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\profile
+DItemRevisionGUID=
+
+[GeneratedDocument146]
+DocumentPath=..\..\..\AppData\Local\Temp\2\QjzA1E8.xls
+DItemRevisionGUID=
+
+[GeneratedDocument147]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\stephdr
+DItemRevisionGUID=
+
+[GeneratedDocument148]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\drill_non-plated_bottom_layer-top_layer\tools
+DItemRevisionGUID=
+
+[GeneratedDocument149]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\drill_plated_bottom_layer-top_layer\tools
+DItemRevisionGUID=
+
 [Parameter1]
-Name=Address1_
-Value=Seker Mah. Ayyildiz Sok
+Name=Version_
+Value=00.00.01
 
 [Parameter2]
-Name=Address2_
-Value=Silverstar Apt. 7/7
+Name=Revision_
+Value=R1
 
 [Parameter3]
-Name=Address3_
-Value=Selcuklu / Konya
-
-[Parameter4]
-Name=Address4_
-Value=Türkiye
-
-[Parameter5]
-Name=Copyright_
-Value=Copyright 2024 Mehmet Gunce Akkoyun (Commercial Secret)
-
-[Parameter6]
-Name=Customer_
-Value=-
-
-[Parameter7]
-Name=Engineer_
-Value=Gunce Akkoyun
-
-[Parameter8]
-Name=Git_Repo_Address_
-Value=www.github.com/akkoyun/B101BA
-
-[Parameter9]
-Name=Module_ID_
-Value=B101BA
-
-[Parameter10]
-Name=Organization_
-Value=Akkoyun
-
-[Parameter11]
-Name=Product_Desc_
-Value=--
-
-[Parameter12]
 Name=Product_ID_
 Value=--
 
+[Parameter4]
+Name=Product_Desc_
+Value=qSlot IoT 4G Modem
+
+[Parameter5]
+Name=Organization_
+Value=Gunce Akkoyun
+
+[Parameter6]
+Name=Module_ID_
+Value=B101BA
+
+[Parameter7]
+Name=Git_Repo_Address_
+Value=www.github.com/akkoyun/B101BA
+
+[Parameter8]
+Name=Engineer_
+Value=Gunce Akkoyun
+
+[Parameter9]
+Name=Customer_
+Value=Gunce Akkoyun
+
+[Parameter10]
+Name=Copyright_
+Value=Copyright 2024 Mehmet Gunce Akkoyun (Commercial Secret)
+
+[Parameter11]
+Name=Address4_
+Value=Türkiye
+
+[Parameter12]
+Name=Address3_
+Value=Selcuklu / Konya
+
 [Parameter13]
-Name=Revision_
-Value=00.00.01
+Name=Address2_
+Value=Silverstar Apt. 7/7
 
 [Parameter14]
-Name=Version_
-Value=R1
+Name=Address1_
+Value=Seker Mah. Ayyildiz Sok
+
+[Parameter15]
+Name=
+Value=
 
 [Configuration1]
 Name=Sources
@@ -541,6 +972,44 @@ ConfigurationType=Source
 
 [Generic_EDE]
 OutputDir=
+
+[Generic_SmartPDF]
+AutoOpenFile=0
+AutoOpenOutJob=-1
+
+[Generic_SmartPDFSettings]
+ProjectMode=0
+ZoomPrecision=50
+AddNetsInformation=-1
+AddNetPins=-1
+AddNetNetLabels=-1
+AddNetPorts=-1
+ShowComponentParameters=-1
+GlobalBookmarks=0
+ExportBOM=0
+TemplateFilename=
+TemplateStoreRelative=-1
+PCB_PrintColor=1
+SCH_PrintColor=0
+PrintQuality=-4
+SCH_ShowNoErc=-1
+SCH_ShowParameter=-1
+SCH_ShowProbes=-1
+SCH_ShowBlankets=-1
+SCH_NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle
+SCH_ShowNote=-1
+SCH_ShowNoteCollapsed=-1
+Wir_PrintColor=0
+Ldr_PrintColor=0
+SCH_ExpandLogicalToPhysical=-1
+SCH_VariantName=[No Variations]
+SCH_ExpandComponentDesignators=-1
+SCH_ExpandNetlabels=0
+SCH_ExpandPorts=0
+SCH_ExpandSheetNumber=0
+SCH_ExpandDocumentNumber=0
+SCH_HasExpandLogicalToPhysicalSheets=-1
+SaveSettingsToOutJob=0
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1609,6 +2078,54 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 
+[NetInfos]
+Net1=NetName=1\V\8\_\O\N\O\F\F\|NetColor=clBlue
+Net2=NetName=1\V\8\_\S\D\O\W\N\|NetColor=clBlue
+Net3=NetName=1V8|NetColor=clRed
+Net4=NetName=1V8_PMON|NetColor=clBlue
+Net5=NetName=1V8_RING|NetColor=clBlue
+Net6=NetName=1V8_RX|NetColor=$001D7638
+Net7=NetName=1V8_STAT|NetColor=clBlue
+Net8=NetName=1V8_STAT_|NetColor=clBlue
+Net9=NetName=1V8_SWREADY|NetColor=clBlue
+Net10=NetName=1V8_TX|NetColor=$001D7638
+Net11=NetName=3\V\3\_\C\O\M\M\_\E\N\|NetColor=clBlue
+Net12=NetName=3V3|NetColor=clRed
+Net13=NetName=3V3_ONOFF|NetColor=clBlue
+Net14=NetName=3V3_ONOFF_Signal|NetColor=clBlue
+Net15=NetName=3V3_PMON|NetColor=clBlue
+Net16=NetName=3V3_POWER_EN|NetColor=clBlue
+Net17=NetName=3V3_RING|NetColor=clBlue
+Net18=NetName=3V3_RX|NetColor=$001D7638
+Net19=NetName=3V3_SDOWN|NetColor=clBlue
+Net20=NetName=3V3_SDOWN_Signal|NetColor=clBlue
+Net21=NetName=3V3_SWREADY|NetColor=clBlue
+Net22=NetName=3V3_TX|NetColor=$001D7638
+Net23=NetName=3V8|NetColor=clRed
+Net24=NetName=3V8_Sense|NetColor=$00FF0099
+Net25=NetName=ANTENNA|NetColor=clFuchsia
+Net26=NetName=ANTENNA_|NetColor=clFuchsia
+Net27=NetName=GND|NetColor=$00434343
+Net28=NetName=GSM_1V8_STAT|NetColor=clBlue
+Net29=NetName=GSM_1V8_STAT_|NetColor=clBlue
+Net30=NetName=NetTP15_1|NetColor=clBlue
+Net31=NetName=PG|NetColor=clBlue
+Net32=NetName=Power_Enable_LED|NetColor=clBlue
+Net33=NetName=SIM_CLK|NetColor=$001D7638
+Net34=NetName=SIM_IN|NetColor=clBlue
+Net35=NetName=SIM_IO|NetColor=$001D7638
+Net36=NetName=SIM_RST|NetColor=$001D7638
+Net37=NetName=SIM_VCC|NetColor=clRed
+Net38=NetName=SW|NetColor=clRed
+Net39=NetName=USB.USB_D_N|NetColor=$001D7638
+Net40=NetName=USB.USB_D_P|NetColor=$001D7638
+Net41=NetName=USB_D_N|NetColor=$001D7638
+Net42=NetName=USB_D_P|NetColor=$001D7638
+Net43=NetName=VBATT|NetColor=clRed
+Net44=NetName=VBATT_PA|NetColor=clRed
+Net45=NetName=VCC|NetColor=clRed
+Net46=NetName=VUSB|NetColor=clRed
+
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
 ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
@@ -1619,4 +2136,36 @@ ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=0|Use
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration_Name1=OutputConfigurationParameter1
+Configuration_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=C:\Users\akkoyun\Documents\Github\B101\B101BA.PcbDoc
+Configuration_Name2=OutputConfigurationParameter2
+Configuration_Item2=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\akkoyun\Documents\Github\B101\B101BA.PcbDoc
+Configuration_Name3=OutputConfigurationParameter3
+Configuration_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\akkoyun\Documents\Github\B101\B101BA.PcbDoc
+Configuration_Name4=OutputConfigurationParameter4
+Configuration_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\akkoyun\Documents\Github\B101\B101BA.PcbDoc
+Configuration_Name5=OutputConfigurationParameter5
+Configuration_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\akkoyun\Documents\Github\B101\B101BA.PcbDoc
+Configuration_Name6=OutputConfigurationParameter6
+Configuration_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer2|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\akkoyun\Documents\Github\B101\B101BA.PcbDoc
+Configuration_Name7=OutputConfigurationParameter7
+Configuration_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\akkoyun\Documents\Github\B101\B101BA.PcbDoc
+Configuration_Name8=OutputConfigurationParameter8
+Configuration_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\akkoyun\Documents\Github\B101\B101BA.PcbDoc
+Configuration_Name9=OutputConfigurationParameter9
+Configuration_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\akkoyun\Documents\Github\B101\B101BA.PcbDoc
+Configuration_Name10=OutputConfigurationParameter10
+Configuration_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\akkoyun\Documents\Github\B101\B101BA.PcbDoc
+Configuration_Name11=OutputConfigurationParameter11
+Configuration_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\akkoyun\Documents\Github\B101\B101BA.PcbDoc
+Configuration_Name12=OutputConfigurationParameter12
+Configuration_Item12=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\akkoyun\Documents\Github\B101\B101BA.PcbDoc
+Configuration_Name13=OutputConfigurationParameter13
+Configuration_Item13=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\akkoyun\Documents\Github\B101\B101BA.PcbDoc
+Configuration_Name14=OutputConfigurationParameter14
+Configuration_Item14=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\akkoyun\Documents\Github\B101\B101BA.PcbDoc
+Configuration_Name15=OutputConfigurationParameter15
+Configuration_Item15=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical7|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\akkoyun\Documents\Github\B101\B101BA.PcbDoc
+Configuration_Name16=OutputConfigurationParameter16
+Configuration_Item16=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical10|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\akkoyun\Documents\Github\B101\B101BA.PcbDoc
 
