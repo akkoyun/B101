@@ -18,7 +18,7 @@ RevisionNamingSchemeGUID=
 Name=Job File.OutJob
 Description=
 TargetOutputMedium=Folder Structure
-VariantName=[No Variations]
+VariantName=Production
 VariantScope=1
 CurrentConfigurationName=
 TargetPrinter=Microsoft Print to PDF
@@ -1361,7 +1361,7 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\akkoyun\Documents\Github\B101\Output\2026-02-18\
+OutputFilePath3=C:\Users\akkoyun\Documents\Github\B101\Output\2026-02-26\
 ReleaseManaged3=0
 OutputBasePath3=Output\
 OutputPathMedia3==CurrentDate
@@ -1415,7 +1415,7 @@ WmvQuality4=80
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\Users\akkoyun\Documents\Electronic_Modules\Modules [B]\B1XX - IoT Segment\B107 - PowerStat V4 IoT Module\B107AA\Design Files\Output\2023-08-31\
 OpenOutputs2=0
-RelativeOutputPath3=C:\Users\akkoyun\Documents\Github\B101\Output\2026-02-18\
+RelativeOutputPath3=C:\Users\akkoyun\Documents\Github\B101\Output\2026-02-26\
 OpenOutputs3=0
 AddToProject3=1
 TimestampFolder3=0

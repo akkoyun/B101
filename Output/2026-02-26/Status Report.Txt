@@ -1,0 +1,10 @@
+Output: Export PARASOLID
+Type  : ExportSTEP
+From  : Variant [Production] of PCB Document [B101BA.PcbDoc]
+   Generated File[B101BA(Production).x_t]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 14:15:18 On 26.02.2026

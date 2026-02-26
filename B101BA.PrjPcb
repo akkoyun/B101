@@ -44,6 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=Production
 
 [Preferences]
 PrefsVaultGUID=
@@ -254,23 +255,6 @@ GenerateClassCluster=0
 DocumentUniqueId=EQIERGZH
 
 [Document13]
-DocumentPath=B101BA_1.PCBDwf
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=LTIZZJAB
-
-[Document14]
 DocumentPath=Job File.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -313,652 +297,1076 @@ DocumentPath=Output\2026-02-18\Test Points\Assembly Testpoint Report for B101BA.
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Output\2026-02-18\Test Points\Assembly Testpoint Report for B101BA.ipc
+DocumentPath=Output\2026-02-26\Test Points\Assembly Testpoint Report for B101BA.csv
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Output\NC Drill\B101AA.DRR
+DocumentPath=Output\2026-02-18\Test Points\Assembly Testpoint Report for B101BA.ipc
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Output\Gerber\B101AA.EXTREP
+DocumentPath=Output\2026-02-26\Test Points\Assembly Testpoint Report for B101BA.ipc
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Output\Gerber\B101AA.G1
+DocumentPath=Output\NC Drill\B101AA.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Output\Gerber\B101AA.G2
+DocumentPath=Output\Gerber\B101AA.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Output\Gerber\B101AA.GBL
+DocumentPath=Output\Gerber\B101AA.G1
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Output\Gerber\B101AA.GBO
+DocumentPath=Output\Gerber\B101AA.G2
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Output\Gerber\B101AA.GBP
+DocumentPath=Output\Gerber\B101AA.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Output\Gerber\B101AA.GBS
+DocumentPath=Output\Gerber\B101AA.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Output\Gerber\B101AA.GD1
+DocumentPath=Output\Gerber\B101AA.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Output\Gerber\B101AA.GG1
+DocumentPath=Output\Gerber\B101AA.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Output\Gerber\B101AA.GKO
+DocumentPath=Output\Gerber\B101AA.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Output\Gerber\B101AA.GM1
+DocumentPath=Output\Gerber\B101AA.GG1
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Output\Gerber\B101AA.GM2
+DocumentPath=Output\Gerber\B101AA.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Output\Gerber\B101AA.GM3
+DocumentPath=Output\Gerber\B101AA.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Output\Gerber\B101AA.GM4
+DocumentPath=Output\Gerber\B101AA.GM2
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Output\Gerber\B101AA.GM5
+DocumentPath=Output\Gerber\B101AA.GM3
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Output\Gerber\B101AA.GM6
+DocumentPath=Output\Gerber\B101AA.GM4
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Output\Gerber\B101AA.GM10
+DocumentPath=Output\Gerber\B101AA.GM5
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Output\Gerber\B101AA.GM15
+DocumentPath=Output\Gerber\B101AA.GM6
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Output\Gerber\B101AA.GPB
+DocumentPath=Output\Gerber\B101AA.GM10
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Output\Gerber\B101AA.GPT
+DocumentPath=Output\Gerber\B101AA.GM15
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Output\Gerber\B101AA.GTL
+DocumentPath=Output\Gerber\B101AA.GPB
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=Output\Gerber\B101AA.GTO
+DocumentPath=Output\Gerber\B101AA.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=Output\Gerber\B101AA.GTP
+DocumentPath=Output\Gerber\B101AA.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=Output\Gerber\B101AA.GTS
+DocumentPath=Output\Gerber\B101AA.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=Output\DRC\B101AA.html
+DocumentPath=Output\Gerber\B101AA.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=Output\ERC\B101AA.html
+DocumentPath=Output\Gerber\B101AA.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=Output\FootprintComparison\B101AA.html
+DocumentPath=Output\DRC\B101AA.html
 DItemRevisionGUID=
 
 [GeneratedDocument32]
-DocumentPath=Output\NC Drill\B101AA.LDP
+DocumentPath=Output\ERC\B101AA.html
 DItemRevisionGUID=
 
 [GeneratedDocument33]
-DocumentPath=Output\PCB 3D Print\B101AA.png
+DocumentPath=Output\FootprintComparison\B101AA.html
 DItemRevisionGUID=
 
 [GeneratedDocument34]
-DocumentPath=Output\Gerber\B101AA.REP
+DocumentPath=Output\NC Drill\B101AA.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument35]
-DocumentPath=Output\Gerber\B101AA.RUL
+DocumentPath=Output\PCB 3D Print\B101AA.png
 DItemRevisionGUID=
 
 [GeneratedDocument36]
-DocumentPath=Output\ExportSTEP\B101AA.step
+DocumentPath=Output\Gerber\B101AA.REP
 DItemRevisionGUID=
 
 [GeneratedDocument37]
-DocumentPath=Output\NC Drill\B101AA.TXT
+DocumentPath=Output\Gerber\B101AA.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument38]
-DocumentPath=Output\2026-02-18\Gerber\B101BA.1
+DocumentPath=Output\ExportSTEP\B101AA.step
 DItemRevisionGUID=
 
 [GeneratedDocument39]
-DocumentPath=Output\2026-02-18\Gerber\B101BA.2
+DocumentPath=Output\NC Drill\B101AA.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument40]
-DocumentPath=Output\2026-02-18\Gerber\B101BA.3
+DocumentPath=Output\2026-02-26\PCB 3D Print\B101BA(Production).png
 DItemRevisionGUID=
 
 [GeneratedDocument41]
-DocumentPath=Output\2026-02-18\IPC2581\B101BA.cvg
+DocumentPath=Output\2026-02-26\ExportSTEP\B101BA(Production).step
 DItemRevisionGUID=
 
 [GeneratedDocument42]
-DocumentPath=Output\2026-02-18\NC Drill\B101BA.DRR
+DocumentPath=Output\2026-02-26\ExportSTEP\B101BA(Production).x_t
 DItemRevisionGUID=
 
 [GeneratedDocument43]
-DocumentPath=Output\2026-02-18\Gerber\B101BA.EXTREP
+DocumentPath=Output\2026-02-18\Gerber\B101BA.1
 DItemRevisionGUID=
 
 [GeneratedDocument44]
-DocumentPath=Output\2026-02-18\GerberX2\B101BA.EXTREP
+DocumentPath=Output\2026-02-26\Gerber\B101BA.1
 DItemRevisionGUID=
 
 [GeneratedDocument45]
-DocumentPath=Output\2026-02-18\Gerber\B101BA.G1
+DocumentPath=Output\2026-02-18\Gerber\B101BA.2
 DItemRevisionGUID=
 
 [GeneratedDocument46]
-DocumentPath=Output\2026-02-18\Gerber\B101BA.G2
+DocumentPath=Output\2026-02-26\Gerber\B101BA.2
 DItemRevisionGUID=
 
 [GeneratedDocument47]
-DocumentPath=Output\2026-02-18\Gerber\B101BA.GBL
+DocumentPath=Output\2026-02-18\Gerber\B101BA.3
 DItemRevisionGUID=
 
 [GeneratedDocument48]
-DocumentPath=Output\2026-02-18\Gerber\B101BA.GBO
+DocumentPath=Output\2026-02-26\Gerber\B101BA.3
 DItemRevisionGUID=
 
 [GeneratedDocument49]
-DocumentPath=Output\2026-02-18\Gerber\B101BA.GBP
+DocumentPath=Output\2026-02-18\IPC2581\B101BA.cvg
 DItemRevisionGUID=
 
 [GeneratedDocument50]
-DocumentPath=Output\2026-02-18\Gerber\B101BA.GBS
+DocumentPath=Output\2026-02-26\IPC2581\B101BA.cvg
 DItemRevisionGUID=
 
 [GeneratedDocument51]
-DocumentPath=Output\2026-02-18\Gerber\B101BA.GKO
+DocumentPath=Output\2026-02-18\NC Drill\B101BA.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument52]
-DocumentPath=Output\2026-02-18\Gerber\B101BA.GM1
+DocumentPath=Output\2026-02-26\NC Drill\B101BA.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument53]
-DocumentPath=Output\2026-02-18\Gerber\B101BA.GM2
+DocumentPath=Output\2026-02-18\Gerber\B101BA.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument54]
-DocumentPath=Output\2026-02-18\Gerber\B101BA.GM3
+DocumentPath=Output\2026-02-18\GerberX2\B101BA.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument55]
-DocumentPath=Output\2026-02-18\Gerber\B101BA.GM4
+DocumentPath=Output\2026-02-26\Gerber\B101BA.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument56]
-DocumentPath=Output\2026-02-18\Gerber\B101BA.GM5
+DocumentPath=Output\2026-02-26\GerberX2\B101BA.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument57]
-DocumentPath=Output\2026-02-18\Gerber\B101BA.GM6
+DocumentPath=Output\2026-02-18\Gerber\B101BA.G1
 DItemRevisionGUID=
 
 [GeneratedDocument58]
-DocumentPath=Output\2026-02-18\Gerber\B101BA.GM7
+DocumentPath=Output\2026-02-26\Gerber\B101BA.G1
 DItemRevisionGUID=
 
 [GeneratedDocument59]
-DocumentPath=Output\2026-02-18\Gerber\B101BA.GM10
+DocumentPath=Output\2026-02-18\Gerber\B101BA.G2
 DItemRevisionGUID=
 
 [GeneratedDocument60]
-DocumentPath=Output\2026-02-18\Gerber\B101BA.GM13
+DocumentPath=Output\2026-02-26\Gerber\B101BA.G2
 DItemRevisionGUID=
 
 [GeneratedDocument61]
-DocumentPath=Output\2026-02-18\Gerber\B101BA.GM15
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument62]
-DocumentPath=Output\2026-02-18\Gerber\B101BA.GML
+DocumentPath=Output\2026-02-26\Gerber\B101BA.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument63]
-DocumentPath=Output\2026-02-18\Gerber\B101BA.GPB
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument64]
-DocumentPath=Output\2026-02-18\Gerber\B101BA.GPT
+DocumentPath=Output\2026-02-26\Gerber\B101BA.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument65]
-DocumentPath=Output\2026-02-18\Gerber\B101BA.GTL
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument66]
-DocumentPath=Output\2026-02-18\Gerber\B101BA.GTO
+DocumentPath=Output\2026-02-26\Gerber\B101BA.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument67]
-DocumentPath=Output\2026-02-18\Gerber\B101BA.GTP
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument68]
-DocumentPath=Output\2026-02-18\Gerber\B101BA.GTS
+DocumentPath=Output\2026-02-26\Gerber\B101BA.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument69]
-DocumentPath=Output\2026-02-18\DRC\B101BA.html
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument70]
-DocumentPath=Output\2026-02-18\ERC\B101BA.html
+DocumentPath=Output\2026-02-26\Gerber\B101BA.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument71]
-DocumentPath=Output\2026-02-18\NC Drill\B101BA.LDP
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument72]
-DocumentPath=Output\2026-02-18\PCB 3D Print\B101BA.png
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GM2
 DItemRevisionGUID=
 
 [GeneratedDocument73]
-DocumentPath=Output\2026-02-18\Gerber\B101BA.REP
+DocumentPath=Output\2026-02-26\Gerber\B101BA.GM2
 DItemRevisionGUID=
 
 [GeneratedDocument74]
-DocumentPath=Output\2026-02-18\GerberX2\B101BA.REP
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GM3
 DItemRevisionGUID=
 
 [GeneratedDocument75]
-DocumentPath=Output\2026-02-18\ODB\B101BA.REP
+DocumentPath=Output\2026-02-26\Gerber\B101BA.GM3
 DItemRevisionGUID=
 
 [GeneratedDocument76]
-DocumentPath=Output\2026-02-18\ReportHierarchy\B101BA.REP
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GM4
 DItemRevisionGUID=
 
 [GeneratedDocument77]
-DocumentPath=Output\2026-02-18\SinglePinNetReporter\B101BA.REP
+DocumentPath=Output\2026-02-26\Gerber\B101BA.GM4
 DItemRevisionGUID=
 
 [GeneratedDocument78]
-DocumentPath=Output\2026-02-18\ExportSTEP\B101BA.step
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GM5
 DItemRevisionGUID=
 
 [GeneratedDocument79]
-DocumentPath=Output\2026-02-18\NC Drill\B101BA.TXT
+DocumentPath=Output\2026-02-26\Gerber\B101BA.GM5
 DItemRevisionGUID=
 
 [GeneratedDocument80]
-DocumentPath=Output\2026-02-18\ExportSTEP\B101BA.x_t
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GM6
 DItemRevisionGUID=
 
 [GeneratedDocument81]
-DocumentPath=Output\2026-02-18\GerberX2\B101BA_Bottom_3D_Body.gbr
+DocumentPath=Output\2026-02-26\Gerber\B101BA.GM6
 DItemRevisionGUID=
 
 [GeneratedDocument82]
-DocumentPath=Output\2026-02-18\GerberX2\B101BA_Bottom_Assembly.gbr
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GM7
 DItemRevisionGUID=
 
 [GeneratedDocument83]
-DocumentPath=Output\2026-02-18\GerberX2\B101BA_Bottom_Courtyard.gbr
+DocumentPath=Output\2026-02-26\Gerber\B101BA.GM7
 DItemRevisionGUID=
 
 [GeneratedDocument84]
-DocumentPath=Output\2026-02-18\GerberX2\B101BA_Copper_Signal_1.gbr
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GM10
 DItemRevisionGUID=
 
 [GeneratedDocument85]
-DocumentPath=Output\2026-02-18\GerberX2\B101BA_Copper_Signal_2.gbr
+DocumentPath=Output\2026-02-26\Gerber\B101BA.GM10
 DItemRevisionGUID=
 
 [GeneratedDocument86]
-DocumentPath=Output\2026-02-18\GerberX2\B101BA_Copper_Signal_Bot.gbr
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GM13
 DItemRevisionGUID=
 
 [GeneratedDocument87]
-DocumentPath=Output\2026-02-18\GerberX2\B101BA_Copper_Signal_Top.gbr
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GM15
 DItemRevisionGUID=
 
 [GeneratedDocument88]
-DocumentPath=Output\2026-02-18\GerberX2\B101BA_Keep-out.gbr
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GML
 DItemRevisionGUID=
 
 [GeneratedDocument89]
-DocumentPath=Output\2026-02-18\GerberX2\B101BA_Legend_Bot.gbr
+DocumentPath=Output\2026-02-26\Gerber\B101BA.GML
 DItemRevisionGUID=
 
 [GeneratedDocument90]
-DocumentPath=Output\2026-02-18\GerberX2\B101BA_Legend_Top.gbr
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GPB
 DItemRevisionGUID=
 
 [GeneratedDocument91]
-DocumentPath=Output\2026-02-18\GerberX2\B101BA_Mechanical_1.gbr
+DocumentPath=Output\2026-02-26\Gerber\B101BA.GPB
 DItemRevisionGUID=
 
 [GeneratedDocument92]
-DocumentPath=Output\2026-02-18\GerberX2\B101BA_Mechanical_8.gbr
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument93]
-DocumentPath=Output\2026-02-18\GerberX2\B101BA_Pads_Bot.gbr
+DocumentPath=Output\2026-02-26\Gerber\B101BA.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument94]
-DocumentPath=Output\2026-02-18\GerberX2\B101BA_Pads_Top.gbr
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument95]
-DocumentPath=Output\2026-02-18\GerberX2\B101BA_Paste_Bot.gbr
+DocumentPath=Output\2026-02-26\Gerber\B101BA.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument96]
-DocumentPath=Output\2026-02-18\GerberX2\B101BA_Paste_Top.gbr
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument97]
-DocumentPath=Output\2026-02-18\GerberX2\B101BA_Soldermask_Bot.gbr
+DocumentPath=Output\2026-02-26\Gerber\B101BA.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument98]
-DocumentPath=Output\2026-02-18\GerberX2\B101BA_Soldermask_Top.gbr
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument99]
-DocumentPath=Output\2026-02-18\GerberX2\B101BA_Top_3D_Body.gbr
+DocumentPath=Output\2026-02-26\Gerber\B101BA.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument100]
-DocumentPath=Output\2026-02-18\GerberX2\B101BA_Top_Assembly.gbr
+DocumentPath=Output\2026-02-18\Gerber\B101BA.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument101]
-DocumentPath=Output\2026-02-18\GerberX2\B101BA_Top_Courtyard.gbr
+DocumentPath=Output\2026-02-26\Gerber\B101BA.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument102]
-DocumentPath=Output\2026-02-18\Gerber\B107AA V2.GM
+DocumentPath=Output\2026-02-18\DRC\B101BA.html
 DItemRevisionGUID=
 
 [GeneratedDocument103]
-DocumentPath=Output\2026-02-18\GerberX2\B107AA V2_Profile.gbr
+DocumentPath=Output\2026-02-18\ERC\B101BA.html
 DItemRevisionGUID=
 
 [GeneratedDocument104]
-DocumentPath=Output\2026-02-18\BOM\Bill of Materials-B101BA.csv
+DocumentPath=Output\2026-02-26\DRC\B101BA.html
 DItemRevisionGUID=
 
 [GeneratedDocument105]
-DocumentPath=Output\BOM\BOM Checks Report-B101AA.html
+DocumentPath=Output\2026-02-26\ERC\B101BA.html
 DItemRevisionGUID=
 
 [GeneratedDocument106]
-DocumentPath=Output\ReportComponents\Component Cross Reference Report-B101AA.csv
+DocumentPath=Output\2026-02-18\NC Drill\B101BA.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument107]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\comp_+_bot\components
+DocumentPath=Output\2026-02-26\NC Drill\B101BA.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument108]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\comp_+_top\components
+DocumentPath=Output\2026-02-18\PCB 3D Print\B101BA.png
 DItemRevisionGUID=
 
 [GeneratedDocument109]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\eda\data
+DocumentPath=Output\2026-02-18\Gerber\B101BA.REP
 DItemRevisionGUID=
 
 [GeneratedDocument110]
-DocumentPath=Project Outputs for B101BA\Design Rule Check - B101BA.html
+DocumentPath=Output\2026-02-18\GerberX2\B101BA.REP
 DItemRevisionGUID=
 
 [GeneratedDocument111]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\bottom_3d_body\features
+DocumentPath=Output\2026-02-18\ODB\B101BA.REP
 DItemRevisionGUID=
 
 [GeneratedDocument112]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\bottom_assembly\features
+DocumentPath=Output\2026-02-18\ReportHierarchy\B101BA.REP
 DItemRevisionGUID=
 
 [GeneratedDocument113]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\bottom_copper_plating\features
+DocumentPath=Output\2026-02-18\SinglePinNetReporter\B101BA.REP
 DItemRevisionGUID=
 
 [GeneratedDocument114]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\bottom_courtyard\features
+DocumentPath=Output\2026-02-26\Gerber\B101BA.REP
 DItemRevisionGUID=
 
 [GeneratedDocument115]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\bottom_layer\features
+DocumentPath=Output\2026-02-26\GerberX2\B101BA.REP
 DItemRevisionGUID=
 
 [GeneratedDocument116]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\bottom_overlay\features
+DocumentPath=Output\2026-02-26\ODB\B101BA.REP
 DItemRevisionGUID=
 
 [GeneratedDocument117]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\bottom_paste\features
+DocumentPath=Output\2026-02-26\ReportHierarchy\B101BA.REP
 DItemRevisionGUID=
 
 [GeneratedDocument118]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\bottom_solder\features
+DocumentPath=Output\2026-02-26\SinglePinNetReporter\B101BA.REP
 DItemRevisionGUID=
 
 [GeneratedDocument119]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\comp_+_bot\features
+DocumentPath=Output\2026-02-18\ExportSTEP\B101BA.step
 DItemRevisionGUID=
 
 [GeneratedDocument120]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\comp_+_top\features
+DocumentPath=Output\2026-02-18\NC Drill\B101BA.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument121]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\dielectric_1\features
+DocumentPath=Output\2026-02-26\NC Drill\B101BA.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument122]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\dielectric_3\features
+DocumentPath=Output\2026-02-18\ExportSTEP\B101BA.x_t
 DItemRevisionGUID=
 
 [GeneratedDocument123]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\dielectric_5\features
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Bottom_3D_Body.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument124]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\drill_drawing_top_layer-bottom_layer\features
+DocumentPath=Output\2026-02-26\GerberX2\B101BA_Bottom_3D_Body.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument125]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\drill_guide_top_layer-bottom_layer\features
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Bottom_Assembly.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument126]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\drill_non-plated_bottom_layer-top_layer\features
+DocumentPath=Output\2026-02-26\GerberX2\B101BA_Bottom_Assembly.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument127]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\drill_plated_bottom_layer-top_layer\features
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Bottom_Courtyard.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument128]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\int1\features
+DocumentPath=Output\2026-02-26\GerberX2\B101BA_Bottom_Courtyard.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument129]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\int2\features
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Copper_Signal_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument130]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\keep-out_layer\features
+DocumentPath=Output\2026-02-26\GerberX2\B101BA_Copper_Signal_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument131]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\mechanical_1\features
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Copper_Signal_2.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument132]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\mechanical_8\features
+DocumentPath=Output\2026-02-26\GerberX2\B101BA_Copper_Signal_2.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument133]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\top_3d_body\features
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Copper_Signal_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument134]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\top_assembly\features
+DocumentPath=Output\2026-02-26\GerberX2\B101BA_Copper_Signal_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument135]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\top_copper_plating\features
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Copper_Signal_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument136]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\top_courtyard\features
+DocumentPath=Output\2026-02-26\GerberX2\B101BA_Copper_Signal_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument137]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\top_layer\features
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Keep-out.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument138]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\top_overlay\features
+DocumentPath=Output\2026-02-26\GerberX2\B101BA_Keep-out.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument139]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\top_paste\features
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Legend_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument140]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\top_solder\features
+DocumentPath=Output\2026-02-26\GerberX2\B101BA_Legend_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument141]
-DocumentPath=Output\2026-02-18\ODB\odb\matrix\matrix
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Legend_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument142]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\netlists\cadnet\netlist
+DocumentPath=Output\2026-02-26\GerberX2\B101BA_Legend_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument143]
-DocumentPath=Output\Pick Place\Pick Place for B101AA.txt
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Mechanical_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument144]
-DocumentPath=Output\2026-02-18\Pick Place\Pick Place for B101BA.txt
+DocumentPath=Output\2026-02-26\GerberX2\B101BA_Mechanical_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument145]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\profile
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Mechanical_8.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument146]
-DocumentPath=..\..\..\AppData\Local\Temp\2\QjzA1E8.xls
+DocumentPath=Output\2026-02-26\GerberX2\B101BA_Mechanical_8.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument147]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\stephdr
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Pads_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument148]
-DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\drill_non-plated_bottom_layer-top_layer\tools
+DocumentPath=Output\2026-02-26\GerberX2\B101BA_Pads_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument149]
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Pads_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument150]
+DocumentPath=Output\2026-02-26\GerberX2\B101BA_Pads_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument151]
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Paste_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument152]
+DocumentPath=Output\2026-02-26\GerberX2\B101BA_Paste_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument153]
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Paste_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument154]
+DocumentPath=Output\2026-02-26\GerberX2\B101BA_Paste_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument155]
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Soldermask_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument156]
+DocumentPath=Output\2026-02-26\GerberX2\B101BA_Soldermask_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument157]
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Soldermask_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument158]
+DocumentPath=Output\2026-02-26\GerberX2\B101BA_Soldermask_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument159]
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Top_3D_Body.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument160]
+DocumentPath=Output\2026-02-26\GerberX2\B101BA_Top_3D_Body.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument161]
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Top_Assembly.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument162]
+DocumentPath=Output\2026-02-26\GerberX2\B101BA_Top_Assembly.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument163]
+DocumentPath=Output\2026-02-18\GerberX2\B101BA_Top_Courtyard.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument164]
+DocumentPath=Output\2026-02-26\GerberX2\B101BA_Top_Courtyard.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument165]
+DocumentPath=Output\2026-02-18\Gerber\B107AA V2.GM
+DItemRevisionGUID=
+
+[GeneratedDocument166]
+DocumentPath=Output\2026-02-26\Gerber\B107AA V2.GM
+DItemRevisionGUID=
+
+[GeneratedDocument167]
+DocumentPath=Output\2026-02-18\GerberX2\B107AA V2_Profile.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument168]
+DocumentPath=Output\2026-02-26\GerberX2\B107AA V2_Profile.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument169]
+DocumentPath=Output\2026-02-26\BOM\Bill of Materials-B101BA(Production).csv
+DItemRevisionGUID=
+
+[GeneratedDocument170]
+DocumentPath=Output\2026-02-18\BOM\Bill of Materials-B101BA.csv
+DItemRevisionGUID=
+
+[GeneratedDocument171]
+DocumentPath=Output\BOM\BOM Checks Report-B101AA.html
+DItemRevisionGUID=
+
+[GeneratedDocument172]
+DocumentPath=Output\ReportComponents\Component Cross Reference Report-B101AA.csv
+DItemRevisionGUID=
+
+[GeneratedDocument173]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\comp_+_bot\components
+DItemRevisionGUID=
+
+[GeneratedDocument174]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\comp_+_top\components
+DItemRevisionGUID=
+
+[GeneratedDocument175]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\comp_+_bot\components
+DItemRevisionGUID=
+
+[GeneratedDocument176]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\comp_+_top\components
+DItemRevisionGUID=
+
+[GeneratedDocument177]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\eda\data
+DItemRevisionGUID=
+
+[GeneratedDocument178]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\eda\data
+DItemRevisionGUID=
+
+[GeneratedDocument179]
+DocumentPath=Project Outputs for B101BA\Design Rule Check - B101BA.html
+DItemRevisionGUID=
+
+[GeneratedDocument180]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\bottom_3d_body\features
+DItemRevisionGUID=
+
+[GeneratedDocument181]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\bottom_assembly\features
+DItemRevisionGUID=
+
+[GeneratedDocument182]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\bottom_copper_plating\features
+DItemRevisionGUID=
+
+[GeneratedDocument183]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\bottom_courtyard\features
+DItemRevisionGUID=
+
+[GeneratedDocument184]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\bottom_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument185]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\bottom_overlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument186]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\bottom_paste\features
+DItemRevisionGUID=
+
+[GeneratedDocument187]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\bottom_solder\features
+DItemRevisionGUID=
+
+[GeneratedDocument188]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\comp_+_bot\features
+DItemRevisionGUID=
+
+[GeneratedDocument189]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\comp_+_top\features
+DItemRevisionGUID=
+
+[GeneratedDocument190]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\dielectric_1\features
+DItemRevisionGUID=
+
+[GeneratedDocument191]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\dielectric_3\features
+DItemRevisionGUID=
+
+[GeneratedDocument192]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\dielectric_5\features
+DItemRevisionGUID=
+
+[GeneratedDocument193]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\drill_drawing_top_layer-bottom_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument194]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\drill_guide_top_layer-bottom_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument195]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\drill_non-plated_bottom_layer-top_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument196]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\drill_plated_bottom_layer-top_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument197]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\int1\features
+DItemRevisionGUID=
+
+[GeneratedDocument198]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\int2\features
+DItemRevisionGUID=
+
+[GeneratedDocument199]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\keep-out_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument200]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\mechanical_1\features
+DItemRevisionGUID=
+
+[GeneratedDocument201]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\mechanical_8\features
+DItemRevisionGUID=
+
+[GeneratedDocument202]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\top_3d_body\features
+DItemRevisionGUID=
+
+[GeneratedDocument203]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\top_assembly\features
+DItemRevisionGUID=
+
+[GeneratedDocument204]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\top_copper_plating\features
+DItemRevisionGUID=
+
+[GeneratedDocument205]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\top_courtyard\features
+DItemRevisionGUID=
+
+[GeneratedDocument206]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\top_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument207]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\top_overlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument208]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\top_paste\features
+DItemRevisionGUID=
+
+[GeneratedDocument209]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\top_solder\features
+DItemRevisionGUID=
+
+[GeneratedDocument210]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\bottom_3d_body\features
+DItemRevisionGUID=
+
+[GeneratedDocument211]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\bottom_assembly\features
+DItemRevisionGUID=
+
+[GeneratedDocument212]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\bottom_copper_plating\features
+DItemRevisionGUID=
+
+[GeneratedDocument213]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\bottom_courtyard\features
+DItemRevisionGUID=
+
+[GeneratedDocument214]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\bottom_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument215]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\bottom_overlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument216]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\bottom_paste\features
+DItemRevisionGUID=
+
+[GeneratedDocument217]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\bottom_solder\features
+DItemRevisionGUID=
+
+[GeneratedDocument218]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\comp_+_bot\features
+DItemRevisionGUID=
+
+[GeneratedDocument219]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\comp_+_top\features
+DItemRevisionGUID=
+
+[GeneratedDocument220]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\dielectric_1\features
+DItemRevisionGUID=
+
+[GeneratedDocument221]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\dielectric_3\features
+DItemRevisionGUID=
+
+[GeneratedDocument222]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\dielectric_5\features
+DItemRevisionGUID=
+
+[GeneratedDocument223]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\drill_drawing_top_layer-bottom_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument224]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\drill_guide_top_layer-bottom_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument225]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\drill_non-plated_bottom_layer-top_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument226]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\drill_plated_bottom_layer-top_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument227]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\int1\features
+DItemRevisionGUID=
+
+[GeneratedDocument228]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\int2\features
+DItemRevisionGUID=
+
+[GeneratedDocument229]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\keep-out_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument230]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\mechanical_1\features
+DItemRevisionGUID=
+
+[GeneratedDocument231]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\mechanical_8\features
+DItemRevisionGUID=
+
+[GeneratedDocument232]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\top_3d_body\features
+DItemRevisionGUID=
+
+[GeneratedDocument233]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\top_assembly\features
+DItemRevisionGUID=
+
+[GeneratedDocument234]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\top_copper_plating\features
+DItemRevisionGUID=
+
+[GeneratedDocument235]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\top_courtyard\features
+DItemRevisionGUID=
+
+[GeneratedDocument236]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\top_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument237]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\top_overlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument238]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\top_paste\features
+DItemRevisionGUID=
+
+[GeneratedDocument239]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\top_solder\features
+DItemRevisionGUID=
+
+[GeneratedDocument240]
+DocumentPath=Output\2026-02-18\ODB\odb\matrix\matrix
+DItemRevisionGUID=
+
+[GeneratedDocument241]
+DocumentPath=Output\2026-02-26\ODB\odb\matrix\matrix
+DItemRevisionGUID=
+
+[GeneratedDocument242]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\netlists\cadnet\netlist
+DItemRevisionGUID=
+
+[GeneratedDocument243]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\netlists\cadnet\netlist
+DItemRevisionGUID=
+
+[GeneratedDocument244]
+DocumentPath=Output\Pick Place\Pick Place for B101AA.txt
+DItemRevisionGUID=
+
+[GeneratedDocument245]
+DocumentPath=Output\2026-02-26\Pick Place\Pick Place for B101BA(Production).txt
+DItemRevisionGUID=
+
+[GeneratedDocument246]
+DocumentPath=Output\2026-02-18\Pick Place\Pick Place for B101BA.txt
+DItemRevisionGUID=
+
+[GeneratedDocument247]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\profile
+DItemRevisionGUID=
+
+[GeneratedDocument248]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\profile
+DItemRevisionGUID=
+
+[GeneratedDocument249]
+DocumentPath=..\..\..\AppData\Local\Temp\2\QjzA1E8.xls
+DItemRevisionGUID=
+
+[GeneratedDocument250]
+DocumentPath=..\..\..\AppData\Local\Temp\2\QjzD338.xls
+DItemRevisionGUID=
+
+[GeneratedDocument251]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\stephdr
+DItemRevisionGUID=
+
+[GeneratedDocument252]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\stephdr
+DItemRevisionGUID=
+
+[GeneratedDocument253]
+DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\drill_non-plated_bottom_layer-top_layer\tools
+DItemRevisionGUID=
+
+[GeneratedDocument254]
 DocumentPath=Output\2026-02-18\ODB\odb\steps\pcb\layers\drill_plated_bottom_layer-top_layer\tools
 DItemRevisionGUID=
 
+[GeneratedDocument255]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\drill_non-plated_bottom_layer-top_layer\tools
+DItemRevisionGUID=
+
+[GeneratedDocument256]
+DocumentPath=Output\2026-02-26\ODB\odb\steps\pcb\layers\drill_plated_bottom_layer-top_layer\tools
+DItemRevisionGUID=
+
 [Parameter1]
-Name=Version_
-Value=00.00.01
-
-[Parameter2]
-Name=Revision_
-Value=R1
-
-[Parameter3]
-Name=Product_ID_
-Value=--
-
-[Parameter4]
-Name=Product_Desc_
-Value=qSlot IoT 4G Modem
-
-[Parameter5]
-Name=Organization_
-Value=Gunce Akkoyun
-
-[Parameter6]
-Name=Module_ID_
-Value=B101BA
-
-[Parameter7]
-Name=Git_Repo_Address_
-Value=www.github.com/akkoyun/B101BA
-
-[Parameter8]
-Name=Engineer_
-Value=Gunce Akkoyun
-
-[Parameter9]
-Name=Customer_
-Value=Gunce Akkoyun
-
-[Parameter10]
-Name=Copyright_
-Value=Copyright 2024 Mehmet Gunce Akkoyun (Commercial Secret)
-
-[Parameter11]
-Name=Address4_
-Value=Türkiye
-
-[Parameter12]
-Name=Address3_
-Value=Selcuklu / Konya
-
-[Parameter13]
-Name=Address2_
-Value=Silverstar Apt. 7/7
-
-[Parameter14]
 Name=Address1_
 Value=Seker Mah. Ayyildiz Sok
 
-[Parameter15]
-Name=
-Value=
+[Parameter2]
+Name=Address2_
+Value=Silverstar Apt. 7/7
+
+[Parameter3]
+Name=Address3_
+Value=Selcuklu / Konya
+
+[Parameter4]
+Name=Address4_
+Value=Türkiye
+
+[Parameter5]
+Name=Copyright_
+Value=Copyright 2024 Mehmet Gunce Akkoyun (Commercial Secret)
+
+[Parameter6]
+Name=Customer_
+Value=Gunce Akkoyun
+
+[Parameter7]
+Name=Engineer_
+Value=Gunce Akkoyun
+
+[Parameter8]
+Name=Git_Repo_Address_
+Value=www.github.com/akkoyun/B101BA
+
+[Parameter9]
+Name=Module_ID_
+Value=B101BA
+
+[Parameter10]
+Name=Organization_
+Value=Gunce Akkoyun
+
+[Parameter11]
+Name=Product_Desc_
+Value=qSlot IoT 4G Modem
+
+[Parameter12]
+Name=Product_ID_
+Value=--
+
+[Parameter13]
+Name=Revision_
+Value=R1
+
+[Parameter14]
+Name=Version_
+Value=00.00.01
 
 [Configuration1]
 Name=Sources
@@ -1492,6 +1900,36 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=Ansoft Neutral
+OutputName13=Ansoft Neutral (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=HyperLynx
+OutputName14=HyperLynx (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=MathWorks
+OutputName15=MathWorks (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=Orcad v7 Capture Design
+OutputName16=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=P-CAD ASCII
+OutputName17=P-CAD ASCII (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=P-CAD V16 Schematic Design
+OutputName18=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs

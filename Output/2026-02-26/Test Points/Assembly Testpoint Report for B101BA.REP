@@ -1,0 +1,28 @@
+Error Report for  - Users\akkoyun\AppData\Local\Temp\2\Qjz572A.tmp
+26.02.2026 14:14:20
+
+Warning arcs were not exported.
+
+Net 1\V\8\_\O\N\O\F\F\ with allias 1 too long.
+Net 1\V\8\_\S\D\O\W\N\ with allias 2 too long.
+Net 3\V\3\_\C\O\M\M\_\E\N\ with allias 3 too long.
+Net 3V3_ONOFF_Signal with allias 4 too long.
+Net 3V3_SDOWN_Signal with allias 5 too long.
+Net Power_Enable_LED with allias 6 too long.
+Warning pad shape change for U3-13 from  to rectangular 9.449mil,14.173mil
+Warning pad shape change for U3-14 from  to rectangular 9.449mil,14.173mil
+Warning pad shape change for U3-5 from  to rectangular 9.449mil,14.173mil
+Warning pad shape change for U3-6 from  to rectangular 9.449mil,14.173mil
+Warning pad shape change for U3-7 from  to rectangular 9.449mil,14.173mil
+Warning pad shape change for U3-8 from  to rectangular 9.449mil,14.173mil
+Warning pad shape change for U3-16 from  to rectangular 9.449mil,14.173mil
+Warning pad shape change for U3-15 from  to rectangular 9.449mil,14.173mil
+Warning pad shape change for U3-9 from  to rectangular 9.449mil,14.173mil
+Warning pad shape change for U3-4 from  to rectangular 9.449mil,14.173mil
+Warning pad shape change for U3-1 from  to rectangular 9.449mil,14.173mil
+Warning pad shape change for U3-3 from  to rectangular 9.449mil,14.173mil
+Warning pad shape change for U3-2 from  to rectangular 9.449mil,14.173mil
+Warning pad shape change for U3-10 from  to rectangular 9.449mil,14.173mil
+Warning pad shape change for U3-11 from  to rectangular 9.449mil,14.173mil
+Warning pad shape change for U3-12 from  to rectangular 9.449mil,14.173mil
+No board outline detected.
