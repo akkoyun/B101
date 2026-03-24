@@ -4,6 +4,8 @@ B101BA-PCIe is a Mini PCI Express form-factor cellular modem card built around t
 
 This repository is an **Altium Designer hardware design repository**. It contains the project files, schematics, PCB layout and generated outputs used to review, manufacture or extend the board.
 
+![B101BA-PCIe PCB Render](https://raw.githubusercontent.com/akkoyun/B101/main/Output/2026-02-26/PCB%203D%20Print/B101BA(Production).png)
+
 ## What This Board Is
 
 From the schematic set, B101BA-PCIe is designed as a **qSlot IoT 4G modem card** in Mini PCIe format. In practical terms, it is a compact cellular communication module intended to be plugged into a host system through a Mini PCI Express connector while exposing a set of embedded control and data interfaces.
