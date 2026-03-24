@@ -4,7 +4,7 @@ B101BA-PCIe is a Mini PCI Express form-factor cellular modem card built around t
 
 This repository is an **Altium Designer hardware design repository**. It contains the project files, schematics, PCB layout and generated outputs used to review, manufacture or extend the board.
 
-![B101BA-PCIe PCB Render](https://raw.githubusercontent.com/akkoyun/B101/main/Output/2026-02-26/PCB%203D%20Print/B101BA(Production).png)
+![B101BA-PCIe Board Preview](docs/assets/b101-preview.jpg)
 
 ## What This Board Is
 
