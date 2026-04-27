@@ -1,0 +1,34 @@
+# macOS sistem dosyalarını ve yaygın gereksiz dosyaları hariç tutar
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Spotlight dosyaları
+.Spotlight-V100
+.Trashes
+
+# macOS resource fork dosyaları
+._*
+
+# Icon dosyaları
+Icon?
+
+# Thumbnails
+._.DS_Store
+
+# .DocumentRevisions-V100 klasörü
+.DocumentRevisions-V100
+
+# .fseventsd klasörü
+.fseventsd
+
+# .TemporaryItems klasörü
+.TemporaryItems
+
+# .apdisk dosyası
+.apdisk
+
+# Altium Designer proje klasörleri ve dosyaları
+History/
+Project Logs for B101BA/
+Project Outputs for B101BA/
