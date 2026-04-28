@@ -160,7 +160,7 @@ Shielded indüktör kullanmak özellikle modem besleme hattında daha stabil dav
 ### Alternatif Shielded İndüktör Önerileri
 
     Not: L3 için kesin değer mevcut şemadaki regülatör topolojisine, switching frekansına, hedef çıkış akımına ve mevcut endüktans değerine göre netleştirilmelidir. Aşağıdaki tablo, modem besleme hattında kullanılabilecek **shielded power inductor** alternatiflerini kısa liste olarak verir. Seçim yapılırken mevcut L3 değeriyle aynı endüktans değeri, daha yüksek saturation current ve düşük DCR önceliklendirilmelidir.
-
+ 
 | Üretici | Seri / Parça Ailesi | Örnek Parça | Paket | Avantaj | Not |
 |---|---|---|---|---|---|
 | Würth Elektronik | WE-PD / WE-LHMI | 7447709xxx / 744373xxxx | SMD shielded | Kolay bulunur, güçlü datasheet, endüstriyel kullanım için güvenilir | Avrupa tedarik zinciri ve prototip için iyi seçenek |
@@ -466,3 +466,192 @@ Revizyon sonrası aşağıdaki üç kontrol tamamlanmadan üretim onayı verilme
 3. Power sequencing / latch-up / fast shutdown testleri
 
 Bu üç madde kapatıldıktan sonra kart, saha pilotu için yeniden değerlendirilebilir.
+# B100 / B101BA Modem Kartı Design Review Revizyon Raporu
+
+**Kaynak Doküman:** Telit Cinterion Design Review Report  
+**Rapor No:** DR-35567 Rev 1  
+**Tarih:** 2026-04-08  
+**Modem:** Telit-Cinterion LE910C1-EUX  
+**Tasarım:** B101BA_00.00.01  
+**Kapsam:** Telit design review bulguları, yapılan düzeltmeler ve açık kalan doğrulama adımları
+
+---
+
+## 1. Yönetici Özeti
+
+Telit tarafından yapılan design review sonucunda B100 / B101BA modem kartı için birkaç kritik düzeltme önerilmiştir. Review’de öne çıkan başlıklar şunlardır:
+
+- Modem footprint’inin Telit önerisiyle uyumlu hale getirilmesi
+- K4 ve M6 reserved pinlerinin bağlantısız bırakılması
+- Voltage translator beslemesinde VIO_1V8 yerine PWRMON/VAUX kullanılması
+- L3 indüktörün shielded/kalkanlı olduğunun netleştirilmesi
+- Ani güç kesintisi senaryosu için fast shutdown mekanizmasının değerlendirilmesi
+- RF/harmonik bastırma için opsiyonel 33 pF filtre kapasitörlerinin değerlendirilmesi
+
+İlk revizyon çalışması kapsamında kritik donanım maddeleri kapatılmıştır. Kart artık doğrudan “hatalı tasarım” durumundan çıkmış, **revizyon sonrası doğrulama/test aşamasına** geçmiştir.
+
+Seri üretim kararı verilmeden önce güç sıralaması, IO leakage, modem TX burst besleme stabilitesi ve temel RF/EMC davranışı doğrulanmalıdır.
+
+---
+
+## 2. Telit Bulguları ve Yapılan İşlemler
+
+| No | Telit Bulgusu | Öncelik | Yapılan İşlem | Durum |
+|---:|---|---|---|---|
+| 1 | Modem footprint hatalı | P0 | LE910C1-EUX footprint’i Telit önerisine göre düzeltildi | Tamamlandı |
+| 2 | K4 ve M6 pinleri reserved, bağlanmamalı | P0 | K4 ve M6 pinleri NC hale getirildi | Tamamlandı |
+| 3 | Voltage translator VCCB hattında VIO_1V8 yerine PWRMON/VAUX kullanılmalı | P1 | 1V8 besleme kaldırılarak PWRMON/VAUX besleme yapıldı | Tamamlandı |
+| 4 | L3 yüksek manyetik alan için shielded olmalı | P1 | L3’ün shielded/kalkanlı olduğu şematikte netleştirildi | Tamamlandı |
+| 5 | Ani güç kesintisi için fast shutdown öneriliyor | P1 | Donanım/firmware akışı ayrıca değerlendirilecek | Açık |
+| 6 | RF/harmonik azaltma için 33 pF filtreler öneriliyor | P2 | Opsiyonel DNP filtre footprintleri değerlendirilecek | Açık / Opsiyonel |
+| 7 | SIM pinleri | P3 | Telit tarafından uygun bulundu | OK |
+| 8 | RF waveguide 50 Ohm | P3 | Telit tarafından uygun bulundu; yapı korunacak | OK |
+
+---
+
+## 3. Kapatılan Kritik Maddeler
+
+### 3.1 Modem Footprint Düzeltmesi
+
+Telit, PCB layout incelemesinde modem footprint’inin doğru olmadığını belirtmiştir. Bu madde üretilebilirlik, lehim kalitesi ve saha güvenilirliği açısından en kritik bulgudur.
+
+**Yapılan işlem:**
+
+- LE910C1-EUX modem footprint’i Telit önerisine göre güncellendi.
+- Pad geometrileri ve mekanik yerleşim kontrol edildi.
+- Yeni footprint’e göre PCB yerleşimi revize edildi.
+
+**Durum:** Tamamlandı.
+
+---
+
+### 3.2 Reserved Pin Düzeltmesi
+
+Telit, K4 ve M6 pinlerinin reserved olduğunu ve bağlanmaması gerektiğini belirtmiştir.
+
+**Yapılan işlem:**
+
+- K4 pini NC hale getirildi.
+- M6 pini NC hale getirildi.
+- Reserved pinlerin sinyal, test point, pull-up veya pull-down bağlantısı olmaması sağlandı.
+
+**Durum:** Tamamlandı.
+
+---
+
+### 3.3 Voltage Translator Besleme Revizyonu
+
+Telit, latch-up riskini azaltmak için voltage translator VCCB hattının VIO_1V8 yerine PWRMON/VAUX ile beslenmesini önermiştir.
+
+**Yapılan işlem:**
+
+- VCCB hattındaki 1V8 besleme kaldırıldı.
+- Voltage translator beslemesi PWRMON/VAUX yapısına alındı.
+
+**Beklenen fayda:**
+
+- Modem kapalıyken IO hatlarından ters besleme riski azalır.
+- Modem power state ile dijital arayüz seviyesi daha uyumlu hale gelir.
+- Latch-up riski düşer.
+
+**Durum:** Tamamlandı.
+
+---
+
+### 3.4 L3 İndüktör / Shielded Bilgisi
+
+Telit, uygulamanın yüksek manyetik alana yakın çalışacağı gerekçesiyle L3 indüktörün shielded tip olmasını önermiştir.
+
+Mevcut L3 parçası:
+
+```text
+Murata LQH3NPN2R2MMEL
+2.2 µH
+Shielded / Magnetic Resin Shielded
+```
+
+**Yapılan işlem:**
+
+- L3’ün shielded/kalkanlı olduğu şematik üzerinde açık şekilde belirtildi.
+- BOM açıklamasında shielded power inductor bilgisi netleştirildi.
+
+**Mühendislik notu:**
+
+Mevcut parça shielded olsa da modem besleme hattı için daha yüksek akım kapasiteli ve daha düşük DCR değerine sahip alternatifler ileride değerlendirilebilir. Bu değişiklik zorunlu değil; daha çok saha güvenilirliği ve EMI dayanımı için iyileştirme adayıdır.
+
+Önerilen alternatif kısa liste:
+
+| Öncelik | Parça | Değer | Not |
+|---:|---|---:|---|
+| 1 | Bourns SRP5030TA-2R2M | 2.2 µH | Fiyat/kalite dengesi iyi, daha yüksek akım kapasitesi |
+| 2 | Würth 74437346022 | 2.2 µH | Daha güçlü ve düşük DCR’li seçenek |
+| 3 | Coilcraft XEL4030-222MEC | 2.2 µH | Performans odaklı alternatif |
+
+**Durum:** Şematik açıklama düzeltmesi tamamlandı. Alternatif komponent geçişi opsiyonel iyileştirme olarak bırakıldı.
+
+---
+
+## 4. Açık Kalan Maddeler
+
+### 4.1 Fast Shutdown Değerlendirmesi
+
+Telit, ani güç kesintisi olan sistemlerde modem memory corruption riskini azaltmak için fast shutdown özelliğinin değerlendirilmesini önermiştir.
+
+Bu konu henüz kapatılmamıştır.
+
+**Yapılacaklar:**
+
+- Telit LE910C1-EUX Hardware User Guide içindeki FAST_SHUTDOWN bölümü incelenecek.
+- Ani güç kesintisinde modem güvenli kapanma akışı belirlenecek.
+- Gerekirse MCU/supervisor üzerinden power fail algılama ve shutdown tetikleme yapısı tasarlanacak.
+- Hold-up kapasitesi veya batarya/power-path süresi yeterlilik açısından değerlendirilecek.
+
+---
+
+### 4.2 Opsiyonel 33 pF RF/Harmonik Filtreleri
+
+Telit, harmonik bastırma için bazı güç ve sinyal hatlarında GND’ye 33 pF kapasitör footprintleri bırakılmasını önermiştir.
+
+Bu konu EMC hazırlığı için faydalıdır; ancak tüm hatlara kontrolsüz uygulanmamalıdır.
+
+**Yapılacaklar:**
+
+- Kritik güç ve IO hatları belirlenecek.
+- Gerekli görülen noktalara DNP 33 pF COG/NPO footprint bırakılacak.
+- EMC test sonucuna göre bu kapasitörler takılacak veya boş bırakılacak.
+
+---
+
+## 5. Güncel Karar
+
+Revizyon sonrası Telit design review’de belirtilen ana kritik maddeler kapatılmıştır.
+
+**Kapatılan başlıca maddeler:**
+
+1. Modem footprint düzeltildi.
+2. K4 ve M6 reserved pinleri NC hale getirildi.
+3. Voltage translator beslemesi PWRMON/VAUX yapısına alındı.
+4. L3’ün shielded/kalkanlı olduğu şematik üzerinde netleştirildi.
+
+Bu aşamada kart, **revize prototip üretim ve doğrulama testleri** için uygundur.
+
+Seri üretim kararı ise ancak aşağıdaki testlerden sonra verilmelidir:
+
+- Power sequencing testi
+- IO leakage testi
+- Modem TX burst besleme testi
+- SIM/network registration testi
+- Temel RF/EMI gözlemi
+
+---
+
+## 6. Sonuç
+
+Telit review sonucunda ortaya çıkan kritik tasarım riskleri büyük ölçüde giderilmiştir. Mevcut durumda ana risk artık şematik/PCB hatasından çok, revizyon sonrası doğrulama testlerinin tamamlanmasıdır.
+
+Bu nedenle önerilen karar:
+
+```text
+Revize tasarım prototip üretime alınabilir.
+Seri üretim kararı, doğrulama testleri tamamlandıktan sonra verilmelidir.
+```
