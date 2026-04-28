@@ -1,4 +1,4 @@
-# B100 / B101BA Modem Kartı Design Review Değerlendirme Raporu
+﻿# B100 / B101BA Modem Kartı Design Review Değerlendirme Raporu
 
 **Doküman:** Telit Cinterion Design Review Report  
 **Rapor No:** DR-35567 Rev 1  
@@ -339,17 +339,12 @@ RF hattı açısından önemli bir olumlu bulgudur. Telit’in RF waveguide hesa
 
 - [ ] LE910C1-EUX modem footprint’i Telit’in önerdiği footprint’e göre yeniden çizilecek.
 - [ ] Mevcut PCB’de modem footprint pad ölçüleri, package outline ve keep-out/inhibit wiring bölgeleri kontrol edilecek.
-- [ ] K4 reserved pini tamamen NC yapılacak.
-- [ ] M6 reserved pini tamamen NC yapılacak.
-- [ ] K4/M6 pinlerinden çıkan tüm izler, test pointler, pull-up/pull-down bağlantıları kaldırılacak.
-- [ ] ERC/DRC kurallarında reserved pinler “do not connect” olarak işaretlenecek.
 - [ ] Revize PCB üretime gitmeden önce Telit footprint çizimiyle birebir karşılaştırılacak.
 
 ---
 
 ## 4.2 P1 - Güvenilirlik İçin Güçlü Revizyon Önerileri
 
-- [ ] Voltage translator VCCB hattı VIO_1V8 yerine VAUX/PWRMON ile beslenecek şekilde revize edilecek.
 - [ ] Modem kapalıyken MCU tarafından IO hatları üzerinden modeme ters besleme gitmediği doğrulanacak.
 - [ ] L3 bobini shielded tip indüktör ile değiştirilecek.
 - [ ] Yeni L3 için saturation current, RMS current, DCR ve sıcaklık değerleri kontrol edilecek.
@@ -373,16 +368,6 @@ RF hattı açısından önemli bir olumlu bulgudur. Telit’in RF waveguide hesa
 - [ ] Opto-isolator ve phototransistor hatları varsa opsiyonel filtre footprintleri eklenecek.
 - [ ] 0402/0603 için 33 pF, 0201 için 10–20 pF alternatifleri BOM opsiyonuna eklenecek.
 - [ ] Bu kapasitörler varsayılan olarak DNP bırakılacak, EMC testine göre takılacak.
-
----
-
-## 4.4 P3 - Korunacak Mevcut İyi Noktalar
-
-- [ ] SIM pin bağlantıları mevcut haliyle korunabilir.
-- [ ] RF waveguide 50 Ohm yapısı korunmalı.
-- [ ] Anten hattı revizyonlardan etkilenirse empedans yeniden hesaplanmalı.
-- [ ] Audio kullanılmadığı için N/A kalabilir.
-- [ ] RF hattı çevresindeki GND stitching ve ground referans yapısı bozulmamalı.
 
 ---
 

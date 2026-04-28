@@ -1,0 +1,15 @@
+------------------------------------------------------------
+Design Hierarchy Report for B101.PrjPcb
+-- 28.04.2026
+-- 11:57:18
+------------------------------------------------------------
+
+GSM IoT Block Diagram         SCH        (GSM IoT Block Diagram.SchDoc)
+    3V8 Power Regulator       SCH        (3V8_Power_Regulator.SchDoc)
+    Antenna & Match Circuit   SCH        (Antenna.SchDoc)
+    Control Signals           SCH        (Control_Signals.SchDoc)
+    LED Inducator             SCH        (Stat_LED_Driver.SchDoc)
+    PCIe Card Edge Connector  SCH        (Edge_Connector.SchDoc)
+    SIM Socket                SCH        (SIM_Socket.SchDoc)
+    Unused Modem Pins         SCH        (Unused_Modem_Pins.SchDoc)
+    Voltage Translator        SCH        (Voltage_Translator.SchDoc)
