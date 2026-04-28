@@ -2,42 +2,151 @@
 FileName = B101.GBR
 AutoAperture = True
 *************************************************************
-Generating : Int2
-      File : B101.G2
+Generating : Bottom 3D Body
+      File : B101.GM7
 
-    Adding Layer      : Int2
+    Adding Layer      : Bottom 3D Body
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Board Shape
+      File : B101.GM10
+
+    Adding Layer      : Board Shape
+
+
+Used DCodes :
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Top 3D Body
+      File : B101.GM6
+
+    Adding Layer      : Top 3D Body
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Multi-Layer
+      File : B101.GML
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D10
     D53
     D54
-    D55
 *************************************************************
 
 *************************************************************
-Generating : Int1
-      File : B101.G1
+Generating : Bottom Assembly
+      File : B101.GM3
 
-    Adding Layer      : Int1
+    Adding Layer      : Bottom Assembly
 
-    Adding Layer      : Multi-Layer
+
+Used DCodes :
+    D12
+    D13
+    D74
+    D75
+*************************************************************
+
+*************************************************************
+Generating : Dielectric 1
+      File : B101.1
+
+    Adding Layer      : Dielectric 1
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Courtyard
+      File : B101.GM5
+
+    Adding Layer      : Bottom Courtyard
+
+
+Used DCodes :
+    D12
+    D13
+    D74
+    D75
+*************************************************************
+
+*************************************************************
+Generating : Dielectric 3
+      File : B101.2
+
+    Adding Layer      : Dielectric 3
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : B101.GM4
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D13
+    D74
+    D75
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : B101.GTO
+
+    Adding Layer      : Top Overlay
 
 
 Used DCodes :
     D10
-    D50
-    D53
-    D54
-    D55
-    D56
+    D11
+    D12
+    D13
 *************************************************************
 
 *************************************************************
-Generating : Bottom Layer
-      File : B101.GBL
+Generating : Top Assembly
+      File : B101.GM2
+
+    Adding Layer      : Top Assembly
+
+
+Used DCodes :
+    D13
+    D74
+    D75
+*************************************************************
+
+*************************************************************
+Generating : Dielectric 5
+      File : B101.3
+
+    Adding Layer      : Dielectric 5
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : B101.GBP
+
+    Adding Layer      : Bottom Paste
 
     Adding Layer      : Bottom Layer
 
@@ -45,24 +154,14 @@ Generating : Bottom Layer
 
 
 Used DCodes :
-    D10
     D19
-    D20
-    D48
-    D50
-    D51
-    D52
-    D53
-    D54
-    D55
+    D27
     D57
     D58
     D59
     D60
     D61
     D62
-    D63
-    D64
 *************************************************************
 
 *************************************************************
@@ -102,83 +201,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Overlay
-      File : B101.GBO
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-    D10
-    D12
-    D13
-    D73
-*************************************************************
-
-*************************************************************
-Generating : Top Solder
-      File : B101.GTS
-
-    Adding Layer      : Top Solder
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : B101.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D28
-    D29
-    D35
-    D36
-    D41
-    D45
-    D46
-    D63
-    D65
-    D66
-    D67
-    D68
-    D69
-    D70
-    D71
-    D72
-*************************************************************
-
-*************************************************************
 Generating : Top Paste
       File : B101.GTP
 
@@ -207,25 +229,19 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Paste
-      File : B101.GBP
+Generating : Int2
+      File : B101.G2
 
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Layer
+    Adding Layer      : Int2
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D19
-    D20
-    D57
-    D58
-    D59
-    D60
-    D61
-    D62
+    D10
+    D53
+    D54
+    D55
 *************************************************************
 
 *************************************************************
@@ -239,101 +255,21 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Assembly
-      File : B101.GM2
+Generating : Int1
+      File : B101.G1
 
-    Adding Layer      : Top Assembly
+    Adding Layer      : Int1
 
-
-Used DCodes :
-    D13
-    D74
-    D75
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : B101.GTO
-
-    Adding Layer      : Top Overlay
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
     D10
-    D11
-    D12
-    D13
-*************************************************************
-
-*************************************************************
-Generating : Top Courtyard
-      File : B101.GM4
-
-    Adding Layer      : Top Courtyard
-
-
-Used DCodes :
-    D13
-    D74
-    D75
-*************************************************************
-
-*************************************************************
-Generating : Dielectric 3
-      File : B101.2
-
-    Adding Layer      : Dielectric 3
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Bottom Courtyard
-      File : B101.GM5
-
-    Adding Layer      : Bottom Courtyard
-
-
-Used DCodes :
-    D12
-    D13
-    D74
-    D75
-*************************************************************
-
-*************************************************************
-Generating : Dielectric 1
-      File : B101.1
-
-    Adding Layer      : Dielectric 1
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Bottom Assembly
-      File : B101.GM3
-
-    Adding Layer      : Bottom Assembly
-
-
-Used DCodes :
-    D12
-    D13
-    D74
-    D75
-*************************************************************
-
-*************************************************************
-Generating : Dielectric 5
-      File : B101.3
-
-    Adding Layer      : Dielectric 5
-
-
-Used DCodes :
+    D50
+    D53
+    D54
+    D55
+    D56
 *************************************************************
 
 *************************************************************
@@ -376,7 +312,7 @@ Generating : Bottom Pad Master
 
 Used DCodes :
     D19
-    D20
+    D27
     D48
     D53
     D54
@@ -389,46 +325,110 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top 3D Body
-      File : B101.GM6
+Generating : Bottom Solder
+      File : B101.GBS
 
-    Adding Layer      : Top 3D Body
+    Adding Layer      : Bottom Solder
 
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Bottom 3D Body
-      File : B101.GM7
-
-    Adding Layer      : Bottom 3D Body
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Board Shape
-      File : B101.GM10
-
-    Adding Layer      : Board Shape
-
-
-Used DCodes :
-    D12
-*************************************************************
-
-*************************************************************
-Generating : Multi-Layer
-      File : B101.GML
+    Adding Layer      : Bottom Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
+    D28
+    D29
+    D35
+    D36
+    D44
+    D45
+    D46
+    D63
+    D65
+    D66
+    D67
+    D68
+    D69
+    D70
+    D71
+    D72
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : B101.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : B101.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D10
+    D12
+    D13
+    D73
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : B101.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D19
+    D27
+    D48
+    D50
+    D51
+    D52
     D53
     D54
+    D55
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
 *************************************************************
 
 *************************************************************
